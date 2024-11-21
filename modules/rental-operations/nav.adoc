@@ -1,0 +1,8 @@
+
+* xref:index.adoc[]
+** Rental Jobs
+*** xref:rental-jobs.adoc[Quickstart]
+*** Rental Job Process Steps
+**** xref:step1-add.adoc[]
+**** xref:step2-services.adoc[]
+

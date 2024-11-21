@@ -1,0 +1,292 @@
+= Step 3: Quotation
+
+==  Process Quotation
+
+After you have added services (optional), click the image:rental-jobs/image42.png[rental-jobs/image42,width=22,height=20] forward icon to move to the Quotation step.
+
+On the Quotation step, you can process or generate the quotation which will be sent to the email address specified as the customer’s contact email address.
+You can also preview or sent the quotation to any email address in both Excel and PDF formats.
+Once the quotation is accepted by the customer you can mark it as Accepted.
+
+* To process the quotation, click the *Process Quotation* button. +
+The “Quotation has been sent to customer” message appears. +
+image:rental-jobs/image58.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+*Note*: If price is not added on the line item either for package, product or service level, then you won’t be able to process the quotation and the *Process Quotation* button will be disabled. +
+ +
+image:rental-jobs/image59.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+Once the quotation sent to customer, or accepted, you won’t be able to go to previous steps and edit any details.
+But you can create another version of the quotation. +
+When you try to go back to the previous steps after the quotation is accepted or sent to the customer, you will be asked whether you want to create a new version of the quotation.
+You can confirm this by clicking *Yes* on the dialog that appears. +
+image:rental-jobs/image60.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+Every time a new version of the quotation is created, the system shows the current version against the *Version* label.
+You can click on the *Version* label to view the list of all versions. +
+image:rental-jobs/image61.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image62.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+Click the Accept/ Reject button and then select Accept or Reject option as required on the popup page, type in your comments (mandatory for Reject), and then click *Save*. +
+image:rental-jobs/image63.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image64.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image65.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image66.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+If the quotation is rejected, you can create a new version of the quotation by clicking the *Clone Version* button or moving back to the previous button.
+
+[arabic,start=5]
+. Preview, Download, Export to Excel: You can preview the quotation, download it, and export it to Excel by clicking the respective buttons. +
+image:rental-jobs/image67.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+==  Assign serialised assets
+
+[arabic]
+. After the quotation is accepted click the image:rental-jobs/image68.png[rental-jobs/image68,width=24,height=22] forward icon to move to the Assign step.
+. Select the asset and then click the *Assign Serialised Assets* button. +
+image:rental-jobs/image69.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assets* tab, you can select the asset and click the *Add to Job* button. +
+image:rental-jobs/image70.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+If you have selected more than one products, then on the *Add Serialised Assets* page, you can click on any of those products for the list to show only corresponding assets. +
+image:rental-jobs/image71.png[A screenshot of a computer Description automatically generated,width=601,height=297] +
+image:rental-jobs/image72.png[A screenshot of a computer Description automatically generated,width=601,height=296] +
+If the asset isn’t available on the current plant, you can select other plants from the *Plants* dropdown list to see they are available in the corresponding plant. +
+image:rental-jobs/image73.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+You can also list the assets available in all plants by removing the plant selection. +
+image:rental-jobs/image74.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+If the asset isn’t available on current plant, you can select it from other plants where it is available and choose any of the following options as required +
+ +
+Transfer to current plant, so that the asset will be transferred to the current plant and you can create loading ticket from here itself. +
+Add directly to the job, so that the asset is added to the rental job but the loading is done from the home plant. +
+image:rental-jobs/image75.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+image:rental-jobs/image76.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
++
+*Sublease Assets*: On the *Sublease Asset* tab, you can select the assets that are leased from the supplier and add to the job.
+You can also add the sublease assets from other plant. +
+image:rental-jobs/image77.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+*In Use Assets*: On the *In Use Assets* tab, you can select the assets that are in use in any other rental job. +
++
+When an asset in use in another rental job is added to your current rental job, the receiving ticket for it will be automatically created in the previous rental job, so the asset gets auto received at the customer location and loading ticket will be created on the current rental job. +
+image:rental-jobs/image78.png[A screenshot of a computer Description automatically generated,width=601,height=296]
+
+[arabic,start=4]
+. Create Purchase Order: To create purchase order for an item, select the item, then from the *Actions* dropdown list, select *Create Purchase Order*, then fill in the fields on the form that appears, and then click *Save.* Purchase orders are typically created when an item quantity is insufficient and need to be fulfilled from the supplier.
+
+image:rental-jobs/image79.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image80.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can go to the *Purchase Order* screen by either clicking on the image:rental-jobs/image81.png[rental-jobs/image81,width=19,height=19] icon in the *Details* column or by selecting the *Show Purchase Order* option from the *Orders* dropdown list. +
+image:rental-jobs/image82.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image83.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+[arabic,start=5]
+. Assign Serial Number: To assign serial number for non-serialised products or serialised products, select the *Assign Serial Number* from the *Actions* dropdown, then on the *Create Non Serialised Asset* page that appears, provide the serial number and then click the *Add* button**. +
+**image:rental-jobs/image84.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image85.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Assign Inventory: To assign inventory that are available in any plant, select the *Assign* inventory from the *Actions* dropdown, then on the *Assign Inventory* page that appears, provide the inventory count and then click *Assign.* +
+image:rental-jobs/image86.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image87.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Bulk Asset Creation*: To create bulk asset, select the asset for the product, then from the *Action* dropdown, select *Create Bulk Asset Creation*, then fill in the fields on the form that appears and then click *Save*. +
+image:rental-jobs/image88.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image89.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can click the image:rental-jobs/image90.png[rental-jobs/image90,width=19,height=17] icon in the *Details* column to open the *Bulk Asset Creation* page.
+
+image:rental-jobs/image91.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can also see the bulk asset created by selecting the *Show Bulk Asset Creation* from the *Orders* dropdown. +
+image:rental-jobs/image92.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+[arabic,start=8]
+. *Create* *Sublease Asset*: To create sublease asset, select the asset, then from the *Actions* dropdown, select *Create Sublease Assets*, then fill in the fields on the form that appears and then click the *Save* button. +
+image:rental-jobs/image93.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image94.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+You can click the image:rental-jobs/image95.png[rental-jobs/image95,width=17,height=19] icon in the *Details* column to open the *Sublease Assets* page. +
+image:rental-jobs/image96.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+You can also use the *Orders* dropdown list and select *Show Sublease Asset* to see the sublease asset. +
+image:rental-jobs/image97.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+==  Loading step +
+
+*Note:* If you want to move to the *Loading* step from the *Assign* step without assigning the required number of assets. **_Please contact the administrator for this option._ **
+
+[arabic]
+. After adding assets and the non-serialized products to the job, you can go to the Loading step by clicking the image:rental-jobs/image68.png[rental-jobs/image68,width=24,height=22] forward button.
+. Create Loading Ticket: Select the assets and the non-serialized products then from the *Actions* list, select the *Create Loading Ticket* option.
+If assets are assigned from a different plant, then you must create loading ticket separately.
+Once the loading ticket is created, the status of the assets and the non-serialized products changes to In-Transit. +
+image:rental-jobs/image98.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the form that appears, make changes to the fields if required and then click Save. +
+image:rental-jobs/image99.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Cancel Specific Line Items:* To cancel loading ticket for specific line items, select the line item, then from the *Actions* dropdown list, select the *Cancel Specific Line Items* option, and then confirm cancellation by clicking on *Confirm* on the confirmation dialog that appears. +
+*  +
+*image:rental-jobs/image100.png[A screenshot of a computer Description automatically generated,width=601,height=272]* +
+*image:rental-jobs/image101.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Cancel Loading Ticket(s)*: To cancel loading tickets, from the *Actions* dropdown, select *Cancel Loading Ticket(s)*, and then confirm cancellation by clicking on *Confirm* on the confirmation dialog that appears.
+Once cancellation is done the items are returned to the plant. +
+image:rental-jobs/image102.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image103.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Preview and Download:* You can preview the loading ticket details by clicking the *Preview* button and download the details by clicking the *Download* button. +
+image:rental-jobs/image104.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+==  On field
+
+On the *On Field* step, you can mark the assets as received on field, then the status of the assets changes to In-Use.
+You can also create the return ticket for the product and the assets.
+
+[arabic]
+. To mark the assets as received on field, select the assets or the non-serialized products and then from the Actions list select the Received On Field option. +
+image:rental-jobs/image105.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Progressive Billing*: You can bill the customer through progressive billing.
+This method allows you to generate pro rata invoices at regular intervals.
+To do so, follow these steps: +
+ +
+_To get this option, please contact the administrator._
+[loweralpha]
+.. Go to the *Progressive Billing* tab and click the *Create Billing* button. +
+image:rental-jobs/image106.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Create Billing* page, select the assets and services, from the *End Date* calendar field select the end date for the billing period, and then click the *Apply* button. +
+image:rental-jobs/image107.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+The customer will be billed for the specified period.
+Next time when you create another bill the start date will be the day after the end date you’ve selected. +
+ +
+image:rental-jobs/image108.png[A screenshot of a computer Description automatically generated,width=601,height=270]
+.. Click the *Create Bill* button at the bottom right of the page. +
+image:rental-jobs/image109.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Create Return Ticket*:
+[loweralpha]
+.. To create return ticket, on the *On Field* step, select the assets, and from the Actions list select the Create Return Ticket (Chargeable) option then the status of asset changes to In-Transit.
+You cannot create return ticket chargeable for non-serialized products. +
+image:rental-jobs/image110.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. Review the form that appears, fill in or make changes to the fields if required, and then click the *Save* button. +
+image:rental-jobs/image111.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. To create the return ticket (Non-chargeable) for non-serialised products as well as assets, select the product, then from the *Actions* dropdown, select the *Create Return ticket (Non-Chargeable)* option and then on the dialog that appears, make changes to the return quantity if required and then click *Save.* +
+image:rental-jobs/image112.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image113.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Create Delivery Ticket for Supplier*: Select the sublease asset, then from the *Actions* dropdown list, select *Create Delivery Ticket for Supplier*, then fill in the fields on the form that appears and then click *Save*. +
+image:rental-jobs/image114.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image115.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+Once the delivery ticket has been created for the supplier, the receiving ticket for the asset is automatically created. +
+image:rental-jobs/image116.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Transfer to another rental job*: Select the asset, then from the *Actions* dropdown list, select *Transfer to another Rental Jobs*, then on the *Select Rental Job* page that appears, you can select an existing rental job and click the *Perform Transfer* button or create a new rental job by clicking the *Create Rental Job* button to transfer the asset.
+When new rental job is created then the package, product and the asset transferred to that rental job. +
+image:rental-jobs/image117.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image118.png[A screenshot of a computer Description automatically generated,width=601,height=297]
+. *Replace Asset*: To replace an asset with a different one, select the asset to be replaced, then from the *Actions* dropdown list, select *Replace Asset*, then on the *Select Serialised Asset* page that appears, select the asset, then click the *Add* button, then on the confirmation dialog that appears type in the reason for replacement and then click *Save*.
+Asset can be replaced when the asset status is In-Use.
+
+image:rental-jobs/image119.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image120.png[A screenshot of a computer Description automatically generated,width=601,height=294] +
+image:rental-jobs/image121.png[A screenshot of a computer Description automatically generated,width=601,height=294] +
++
+image:rental-jobs/image122.png[A screenshot of a computer Description automatically generated,width=601,height=296] +
++
+You can create only the return ticket (non-chargeable) for the asset, which got replaced.
+The replaced asset requires creating loading ticket by going back to the *Loading* step.
+
+[arabic,start=7]
+. *Swap In*-*Use Assets*: To swap an in-use asset, select the asset, then from the *Actions* dropdown list, select *Swap In-Use Assets,* then on the *Add Serialized Assets* page that appears, select the asset and then click the *Add* button. +
+image:rental-jobs/image123.png[A screenshot of a computer Description automatically generated,width=601,height=296] +
+image:rental-jobs/image124.png[A screenshot of a computer Description automatically generated,width=601,height=295] +
+When swapping is done, the receiving ticket for the original asset is automatically created and gets auto received on the plant.
+The loading ticket for the new asset is also created and gets auto delivered at the customer location. +
+image:rental-jobs/image125.png[A screenshot of a computer Description automatically generated,width=601,height=296]
+. *Cancel Receiving Ticket*: To cancel receiving ticket, select the asset, then from the *Actions* dropdown list, select *Cancel Receiving Ticket(s)*, and then on the confirmation dialog that appears, click *Confirm* to confirm cancellation. +
+ +
+*Note*: After you cancel the receiving ticket you can go back to the Loading step and cancel the loading process if required.
+
+*If the auto*-*repair policy is not enabled*. +
++
+After loading and delivery process is completed, the asset status will be “In Use”.
+After the receiving ticket is generated, the asset is brought back.
+If the policy for auto-repair order is not enabled, it can be cancelled. +
+Once the return ticket is created the asset moves to “In Transit” status. +
+image:rental-jobs/image126.png[A screenshot of a computer Description automatically generated,width=601,height=270] +
++
++
+After receiving the asset, you can cancel Receiving/ Return ticket and then the asset status becomes “In Use”.
+Now when you go back to the Loading step and cancel the loading ticket, the asset status becomes “Reserved”. +
+image:rental-jobs/image127.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
++
+Once done, you can go back to the *Assign* step and unassign or delete the asset. +
++
+image:rental-jobs/image128.png[A screenshot of a computer Description automatically generated,width=601,height=296] +
+image:rental-jobs/image129.png[A screenshot of a computer Description automatically generated,width=601,height=296]
+
+[arabic,start=9]
+. *Cancel Specific Line Items*: To cancel specific line item, select the item, then from the *Actions* dropdown list, select *Cancel Specific Line Items*, and then on the confirmation dialog that appears, click *Confirm* to confirm cancellation.
+You can cancel the receiving ticket if the status of the asset or non-serialized product is In-transit. +
+image:rental-jobs/image130.png[A screenshot of a computer Description automatically generated,width=601,height=297] +
+image:rental-jobs/image131.png[A screenshot of a computer Description automatically generated,width=601,height=271]
+. *Update Start Date and End Date*: To update start date and end date, select the asset, then from the *Actions* dropdown list, select *Update – Start Date/End Date*, then on the dialog that appears, make changes to the start date and end date as required and then click *Save*.* +
+*image:rental-jobs/image132.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image133.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can also click the edit icon in the *Actions* column to update the start date and end date.
+
+Note: The option to update the *End Date* will be shown after receiving the asset back on the plant which is done on the *Receiving* step.
+
+[arabic,start=11]
+. *Consumed*: To mark the consumable product as consumed, select the product, then from the *Actions* dropdown list, select *Consumed*, then on the *Consume Quantity* dialog that appears, specify the consumed quantity, and then click *Save*. +
+ +
+To enable this option, please contact the administrator. +
+image:rental-jobs/image134.png[A screenshot of a computer Description automatically generated,width=601,height=335] +
+image:rental-jobs/image135.png[A screenshot of a computer Description automatically generated,width=601,height=296] +
+Once consumed, the rental asset status changes to _consumed_ and if the consumed quantity is less than the actual quantity the status will be _partially consumed_.
+. *Change Status*: You can change the status of assets to _Available, Scrap, Lost, Nees Repair or Need Recent_ by selecting the assets and then selecting the required status from the *Change Status* dropdown list. +
+image:rental-jobs/image136.png[A screenshot of a computer Description automatically generated,width=601,height=297]
+
+_**Rental inventory debit and credit: For this feature, please contact the administrator**_ +
+_When a non-serialized product is consumed in the field, the system automatically debits the quantity of the product which you can see on the product history page or the Product Inventory page._ image:rental-jobs/image137.png[A screenshot of a computer Description automatically generated,width=601,height=296] +
++
+If the return ticket is generated and the product is returned on plant, the inventory count is increased in the inventory history by the quantity specified in the rental job. +
++
+image:rental-jobs/image138.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+==  Receiving step
+
+On the Receiving step, you can mark the items as received back on the plant as below.
+
+[arabic]
+. Select the asset from the *Actions* list, select the *Received Items* option.
+The status of assets changes to Under Review.
+Once the product is received back at the plant then the inventory gets credited.
+
+image:rental-jobs/image139.png[A screenshot of a computer Description automatically generated,width=601,height=297]
+
+[arabic,start=2]
+. Create Repair Jobs: To create repair job for an asset, select the asset, then from the *Action* dropdown, select *Create Repair Jobs*, then fill in the fields on the form that appears and then click *Save*.
+Once done the asset is sent to supplier for repair. +
+image:rental-jobs/image140.png[A screenshot of a computer Description automatically generated,width=601,height=294] +
+image:rental-jobs/image141.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Create Repair Order: To create repair order, select the asset, then from the *Actions* dropdown, select *Create Repair Order*, then fill in the fields on the form that appears and then click *Save*.
+Repair orders are created for asset requiring repair on the plant. +
+image:rental-jobs/image142.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image143.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+_***Note*: Repair orders can automatically be created for assets received on plant by making changes in the system settings.
+For this option, please contact the administrator**_ +
+image:rental-jobs/image144.png[A screenshot of a computer Description automatically generated,width=601,height=296] +
+image:rental-jobs/image145.png[A screenshot of a computer Description automatically generated,width=601,height=297]
+. *Update Start Date and End Date*: To update start date and end date, select the asset, then from the *Actions* dropdown list, select *Update – Start Date/End Date*, then on the dialog that appears, make changes to the start date and end date as required and then click *Save*.* +
+*  +
+image:rental-jobs/image146.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image147.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can also click the edit icon in the *Actions* column to make changes to the start date and end date.
+
+==  Slip
+
+On this step, you can preview, download, and send the slip for the rental job through email. +
+image:rental-jobs/image148.png[A screenshot of a computer Description automatically generated,width=601,height=296] +
++
+You can also add additional costs and pricing information by clicking the *Add* button and then making changes on the *Add* dialog that appears.
+Once done, click *Save*. +
+image:rental-jobs/image149.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image150.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:rental-jobs/image151.png[A screenshot of a computer Description automatically generated,width=601,height=296]
+
+==  Closing the rental job
+
+To close the rental job, on the *Slip* step, click the *Close* button on top of the page. +
+image:rental-jobs/image152.png[A screenshot of a computer Description automatically generated,width=601,height=272]

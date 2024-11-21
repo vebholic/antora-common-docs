@@ -1,0 +1,147 @@
+= Step 1: Add
+:toc:
+
+==  Add Existing Products
+
+To add existing products:
+
+. From the *Add* dropdown, select *Add Existing Products*.
++
+image:rental-jobs/image19.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. On the page that appears listing the products, do the following.
++
+* Select the products
+* Specify the quantity for each product as required.
+* Once done, click the Add button at the top right of the page.
++
+NOTE: Adding serialised products refers to adding assets and non-serialised products refers to consumables.
++
+image:rental-jobs/image20.png[A screenshot of a computer Description automatically generated,width=601,height=271]
+
+
+== Add Existing Packages
+
+. From the *Add* dropdown, select *Add Existing Packages*.
++
+image:rental-jobs/image21.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Add Package* page that lists the packages, do the following
++
+* Select the packages.
+* Specify the required quantity for each package.
+* Once done, click the *Add* button at the top right of the page.
+
++
+image:rental-jobs/image22.png[A screenshot of a computer Description automatically generated,width=601,height=270]
+
+== Add New Product Package
+
+To add a new product package:
+
+. From the *Add* dropdown, select *Add New Product Package*.
++
+image:rental-jobs/image23.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. Fill in the fields on the form that appears, and then click *Save*.
++
+image:rental-jobs/image24.png[A screenshot of a computer Description automatically generated,width=601,height=271]
+
+You can add existing products, packages, and services to the package by clicking on the Plus button next to the package name in the *Details* column. +
+image:rental-jobs/image25.png[A screenshot of a computer Description automatically generated,width=601,height=271]
+
+== Add Existing Serialized Assets
+
+To add existing serialised assets:
+
+. From teh Add dropdown, select  *Add Existing Serialized Assets*.
++
+image:rental-jobs/image26.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. From the list that appears, select the assets, and then click the *Add* button at the top right of the page.
++
+image:rental-jobs/image27.png[A screenshot of a computer Description automatically generated,width=601,height=271]
+
+
+[NOTE]
+====
+* Once you click on the *Add* button firstly the product will be shown on the *Add* step and assigned assets will be shown on the *Assign* step.
+
+* The system allows you to add assets that are currently in _New_, _Available_, or _Under_ _Review_ status.
+====
+
+
+== Add Manual Entry
+
+To add a manual entry:
+
+. From the Add dropdown, select _Add Manual Entry_.
++
+image:rental-jobs/image28.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears, and then click *Save*.
++
+image:rental-jobs/image29.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+
+== Check Asset Availability
+
+To check the availability of assets, click the image:rental-jobs/image30.png[rental-jobs/image30,width=25,height=28] icon.
+
+image:rental-jobs/image31.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+A dialog appears showing the asset availability in the currently selected plant or if the asset is not available in the currently selected plant, it shows you its availability in any other plants.
+
+image:rental-jobs/image32.png[A screenshot of a computer Description automatically generated,width=601,height=309]
+
+image:rental-jobs/image33.png[A screenshot of a computer Description automatically generated,width=594,height=308]
+
+== Add child products/services
+
+To add child products:
+
+. Click the *Plus* icon next to the product name in the *Details* column and then select the *Add Existing Products* option.
++
+image:rental-jobs/image34.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. Select the child products on the *Add Product* page and then click the *Add* button.
++
+image:rental-jobs/image35.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Add price for the products, services and packages
+
+To add price for the product and assets:
+
+*Individual line items*:
+
+. Click the edit icon against the products or assets.
+You can also click on the hyperlinked product name in the *Details* column to display the *Edit* dialog for adding or changing the price.
+
++
+image:rental-jobs/image36.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+
+. On the form that appears, enter the price in the Price field and then click *Save*.
++
+image:rental-jobs/image37.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+*Bulk Edit*:
+
+If you want to change details for more than one product:
+
+. Select the products, then from the *Actions* list, select the *Bulk Edit* option.
++
+image:rental-jobs/image38.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. On the *Bulk Edit* form that appears, make changes and then click *Save*.
++
+image:rental-jobs/image39.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Delete
+
+*Delete more than one item at once*:
+
+. Select the items, then from the *Actions* dropdown.
+
+. Select delete and then confirm deletion on the confirmation dialog that appears. +
+image:rental-jobs/image40.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+
+image:rental-jobs/image41.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+

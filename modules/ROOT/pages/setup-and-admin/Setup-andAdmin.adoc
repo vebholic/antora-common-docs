@@ -1,0 +1,2009 @@
+= Setups & Administration
+:toc: macro
+
+[.exampleSummary]
+--
+The *Setups & Administration* module covers essential tasks such as creating and managing tax codes, addresses, entities, plants, roles, and products.
+{nbsp} +
+--
+
+toc::[]
+
+== Tax Master
+
+The Tax Master page allows you to create and manage tax-related master data. +
+ +
+This includes setting up taxation details such as county, state, and applicable tax percentages. When creating a tax entry, you can define the State, County, and enter corresponding State Tax Rate, County Tax Rate, and City Tax Rate.
+
+To access the *Tax Master* page, click the *Setup and Administration* card and then select *Tax Master*.
+
+image:setup-and-admin/image130.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Tax Master* page appears listing all the tax codes you created.
+
+[arabic]
+. *Search*: You can search for a tax code with any tax master data by providing the search keywords in the *Search* boxes. +
+image:setup-and-admin/image131.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete*: To delete one or more tax codes, do the following.
+[arabic]
+.. Select the tax codes that you want to delete and the from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image132.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Confirmation* dialog that appears, click *Confirm to confirm. +
+*image:setup-and-admin/image133.png[A screenshot of a computer Description automatically generated,width=601,height=272]** +
+ +
+**You can also delete any tax code by clicking the *Delete* button in the *Actions* column against the tax code that you want to delete. +
+image:setup-and-admin/image134.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing tax code, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the tax code that you want to clone. +
+image:setup-and-admin/image135.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image136.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+
+=== Create a new tax code
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image137.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+____
+Fill in the fields on the *Create Tax Master* form that appears and then click *Save*. +
+ +
+image:setup-and-admin/image138.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+____
+
+* When you enter a zip code in the *Zip Code* field on any form across Equipt portal, the *State Tax Rate*, *County Tax Rate*, and *City Tax Rate* fields are automatically populated with the predefined tax values specified in the Tax Master for that zip code.
+* If the *Tax Applicable on Product* and *Tax Applicable for Services* checkboxes are selected, tax will be applied on products and services respectively. +
+ +
+The *Tax Master* page for the newly created tax code appears.
+
+*Edit/ Delete*: You can edit or delete the tax code by clicking the respective buttons. +
+image:setup-and-admin/image139.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+After you click *Edit*, the *Update* form appears, in which you can make changes and click *Save*. +
+image:setup-and-admin/image140.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+After you click *Delete*, click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image141.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Address
+
+The *Address* page allows you to create and manage address-related master data and list of addresses used in the brand.
+
+To access the *Address* page, click the *Setup and Administration* card and then select *Address*.
+
+Note: address entered elsewhere in the system is also maintained as address master data and will be listed on this page.
+
+image:setup-and-admin/image142.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Address* page appears listing all address master data.
+
+* *Search*: You can search for any address information by typing in the search keywords in the *Search* fields. +
+image:setup-and-admin/image143.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* *Delete multiple addresses at once*:
+[arabic]
+. To delete multiple addresses at once, select the addresses you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image144.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image145.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* *Delete individual addresses*:
+[arabic]
+. Click the *Delete* icon in the *Actions* column against the address that you want to delete. +
+image:setup-and-admin/image146.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image147.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* See the link:#common-features[Common Features] section for more information on the common features.
+
+=== Create new address
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image148.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears, specify location on the map and then click *Save*. +
+image:setup-and-admin/image149.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+*Note*: When you select an address or location in the *Full Address* field, the other address fields on the form will automatically populate with the corresponding details. Similarly, when you specify the *Latitude* and *Longitude*, the related address information is automatically filled in the respective fields.
+
+image:setup-and-admin/image150.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+*Edit*
+
+[arabic]
+. Click the *Edit* button. +
+image:setup-and-admin/image151.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Make changes in the *Edit Address* form that appears and then click *Save*. +
+image:setup-and-admin/image152.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+*Delete*
+
+[arabic]
+. Click the *Delete* button. +
+image:setup-and-admin/image153.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image154.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Entities
+
+The *Entities* page allows you to manage key organizational units within the Equipt system. An entity represents a legal or business structure, such as a company or division, that operates under a distinct identity.
+
+To access the *Entities* page, click the *Setup and Administration* card and then select *Entities*.
+
+image:setup-and-admin/image155.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Entities* page appears listing all the existing entities.
+
+* *Search*: You can search for any entities with any entity information by typing in the search keywords in the *Search* fields. +
+image:setup-and-admin/image156.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* *Delete multiple entities at once*:
+[arabic]
+. To delete multiple addresses at once, select the addresses you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image157.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the confirmation dialog that appears, click *Confirm* to confirm deletion.
+* *Delete individual addresses*:
+[arabic]
+. Click the *Delete* icon in the *Actions* column against the address that you want to delete. +
+image:setup-and-admin/image158.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Transfer resources to another entity. You can transfer the resources from one entity to another entity before you delete an entity. +
+image:setup-and-admin/image159.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image160.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* See the link:#common-features[Common Features] section for more information on the common features.
+* To create a clone of an existing entity, do the following.
+[arabic]
+. Click the *Clone* icon in the *Actions* column against the entity that you want to clone. +
+image:setup-and-admin/image161.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image162.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* *Assign users*: To assign users to an entity, do the following.
+[arabic]
+. Click the *Users* icon in the *Actions* column against the entity *OR* select multiple entities and then select *Assign User* from the *Actions* dropdown list. +
+image:setup-and-admin/image163.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image164.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign User* dialog that appears, select the user and then click *Next*. +
+image:setup-and-admin/image165.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Select one or more roles to be assigned to the user as required and then click *Save*. +
+image:setup-and-admin/image166.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create new entities
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image167.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Create New Entities* form that appears, fill in the fields and then click *Submit*. +
+image:setup-and-admin/image168.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Plants
+
+The *Plants* page allows you to create and manage plant-related master data. A *plant* refers to a physical facility or location where specific operations related to assets, inventory, or services are carried out. It could include sites where equipment is stored, repaired, or rented, and where inventory and resources are managed to support the processes such as rental and repair processes.
+
+To access the *Plant* page, click the *Setup and Administration* card and then select *Plant*. +
+image:setup-and-admin/image169.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Plant* page appears listing all plants master data.
+
+[arabic]
+. *Search*: You can search for any plant information by typing in the search keywords in the *Search* fields. +
+image:setup-and-admin/image170.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+[arabic, start=5]
+. See the link:#common-features[Common Features] section for more information on the common features.
+
+[arabic, start=2]
+. *Delete multiple plants at once*:
+[arabic]
+.. To delete multiple plants at once, select the plants you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image171.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image172.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual plants*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the plant that you want to delete. +
+image:setup-and-admin/image173.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image174.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing tax code, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the plant that you want to clone. +
+image:setup-and-admin/image175.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image176.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Assign Entity*: To assign entities to a plant, do the following.
+[arabic]
+.. Select the plant and then from the *Actions* dropdown, select *Assign Plant*. +
+image:setup-and-admin/image177.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Assign Entity* dialog that appears, select the entity and click *Save*. +
+image:setup-and-admin/image178.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create new plant
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image179.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the *Create Plant* form that appears and then click *Save*. +
+image:setup-and-admin/image180.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Roles
+
+The *Roles* page allows administrators to define, manage, and assign user roles that control access to specific modules and functionalities. By creating roles with tailored permissions, the system ensures that users assigned to that role can only access the resources, features and data relevant to their responsibilities.
+
+To access the *Roles* page, click the *Setup and Administration* card and then select *Roles*.
+
+image:setup-and-admin/image181.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+The *Roles* page appears listing all the roles you created.
+
+* *Search*: You can search for a role with any tax master data by providing the search keywords in the *Search* fields. +
+ +
+image:setup-and-admin/image182.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* *Delete multiple roles at once*:
+[arabic]
+. To delete multiple roles at once, select the roles you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image183.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image184.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* *Delete individual roles*:
+[arabic]
+. Click the *Delete* icon in the *Actions* column against the role that you want to delete. +
+image:setup-and-admin/image185.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image186.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* *Clone*: To create a clone of an existing role, do the following.
+[arabic]
+. Click the *Clone* icon in the *Actions* column against the role that you want to clone. +
+image:setup-and-admin/image187.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Clone Role* form that appears, provide a role name, description, make changes to the role permissions if required and then click *Submit*. +
+image:setup-and-admin/image188.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* *Assign Users*: To assign users to the role, follow these steps.
+[arabic]
+. Select the roles to which you want to assign the users and then from the *Actions* dropdown list select *Assign Users*. +
+image:setup-and-admin/image189.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign Users* form that appears, select all or any specific users and then click *Save*. +
+image:setup-and-admin/image190.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* *Assign Resources*: To assign resources to the role, follow these steps.
+[arabic]
+. Select the roles and then from the *Actions* dropdown list, select *Assign Resource*. +
+image:setup-and-admin/image191.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign Resources* dialog that appears, select one or more resources as required, specify the permission by selecting the *Read*, *Create*, *Update* and *Delete* checkboxes as required and then click *Save*. +
+image:setup-and-admin/image192.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+* *Remove Resources*: To remove resources assigned to a role, follow these steps.
+[arabic]
+. Select the roles and then from the *Actions* dropdown list, select *Remove Resource*. +
+image:setup-and-admin/image193.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Remove Resource* dialog that appears, select the resources that you want to remove and then click *Save*. +
+image:setup-and-admin/image194.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create a new role
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image195.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the Create New Role form that appears, provide a role name and description and specify the permissions for the role and then click *Submit*. +
+image:setup-and-admin/image196.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Products
+
+The *Products* page allows you to create and manage product-related master data. Products include the equipment that the company offer.
+
+To access the *Products* page, click the *Setup and Administration* card and then select *Products*.
+
+image:setup-and-admin/image197.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Products* page appears listing all the products you created.
+
+[arabic, start=6]
+. *Search*: You can search for a product with any product data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image198.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete multiple products at once*:
+[arabic]
+.. To delete multiple products at once, select the products you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image199.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image200.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual products*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the product that you want to delete. +
+image:setup-and-admin/image201.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image202.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+. *Clone*: To create a clone of an existing product, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the product that you want to clone. +
+image:setup-and-admin/image203.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image204.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Add child products*: To add child products to a product, follow these steps. +
+ +
+[.mark]#Child products, in the context of a BOM, are the individual components or parts that make up a larger, complete product. They are essentially the building blocks of a product.#
+[arabic]
+.. Click the *Child Product* button in the *Actions* column against the product. +
+image:setup-and-admin/image205.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the page that appears, click the *Add* button. +
+image:setup-and-admin/image206.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Add Products* page that appears, select the products, specify the quantity and then click the *Add* button. +
+image:setup-and-admin/image207.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create a new product
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image208.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the *New Product* form that appears and click *Save*. +
+image:setup-and-admin/image209.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+*Note*: Select the *Serialized Product* checkbox to make this a serialized product. Serialized Products are items that are tracked individually using unique serial numbers. Each product has a distinct identifier, allowing for precise tracking, and management. Serial numbers are mandatory when you create inventory for the serialized products. Serialization is commonly used for high-value items or products that require detailed tracking throughout their lifecycle.
+
+The product master page appears. +
+image:setup-and-admin/image210.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Product master page
+
+On the Product master page, you have the following tabs/ options.
+
+=== Details tab
+
+On the Details tab, you can view the basic information of the product. +
+image:setup-and-admin/image211.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+If the product is a serialized product, you can add assets as follows:
+
+[arabic]
+. Click the *+* icon in the *Serialized Assets* section. +
+image:setup-and-admin/image212.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears and then click *Save*. +
+image:setup-and-admin/image213.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Once added, the assets are listed and are grouped by plants. +
+image:setup-and-admin/image214.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Child Products tab
+
+On the *Child Products* tab, you can view and add child products. +
+*Child Products* are variations or subcategories of a parent product. They inherit attributes from the parent product but have distinct characteristics. Child products form the Bill of Materials. +
+image:setup-and-admin/image215.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+To add child products, do the following.
+
+[arabic]
+. From the *Add* dropdown, select *Add Existing Products*. +
+image:setup-and-admin/image216.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Add Products* page that appears, select the products, specify the quantity and then click *Add*. +
+image:setup-and-admin/image217.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Service and consumables tab
+
+On the *Service and Consumables* tab you can view and add services and consumables.
+
+*Add normal services*
+
+[arabic]
+. On the *Normal* tab, from the *Add* dropdown, select *Add Services*. +
+image:setup-and-admin/image218.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign Service Master* page, select the services and then click *Add*. +
+image:setup-and-admin/image219.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To add consumables, click the *+* icon in the *Actions* column.
+
+____
+*Note*: When you add consumables at the product level, those items will automatically be associated with the product during service operations. For example, if *Product A* and *Product B* are added as consumables for a particular product, they will be listed as consumables whenever services are performed for that product. +
+image:setup-and-admin/image220.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+____
+
+[arabic, start=4]
+. On the *Add Products* page, select the consumables products, specify the quantity and then click *Add. +
+*image:setup-and-admin/image221.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To set a service as the default service, click the *Set Default* icon in the *Actions* column. +
+ +
+*Note*: Only when you set a service as the default will it be automatically listed for the product when it is added to the respective jobs. +
+image:setup-and-admin/image222.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To delete a service or consumables, click the *Delete* button in the *Actions* column and then on the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image223.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+image:setup-and-admin/image224.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Service Packages tab
+
+*Add service packages*
+
+[arabic]
+. From the *Add* dropdown select *Add Service Packages*. +
+image:setup-and-admin/image225.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign Packages* page, select the service package, specify the quantity and then click *Add*. +
+image:setup-and-admin/image226.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To set the service package as default, click the *Set Default* icon in the *Actions* column. +
+image:setup-and-admin/image227.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To delete the service package, click the *Delete* icon in the actions column or select the service package and from the *Actions* dropdown, select *Delete* and on the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image228.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image229.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. You can remove default by clicking the *Remove Default* icon in the *Actions* column. +
+image:setup-and-admin/image230.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Product packages tab
+
+The *Product Packages* tab lists all product packages in which this product is included. +
+image:setup-and-admin/image231.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+Parent Products tab
+
+The *Parent Products* tab lists all parent products. +
+image:setup-and-admin/image232.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== History tab
+
+The *History* tab displays all historical data of the product and related transactions.
+
+Credits are highlighted in green and debits are highlighted in pink colour.
+
+You can filter the list by plants by selecting the plant from the *Plant* dropdown.
+
+You can select the duration from the *Select Duration* dropdown. You can also select Custom from the Select Duration dropdown and then specify the custom duration with the From Date and To Date selection. +
+image:setup-and-admin/image233.png[A screenshot of a computer Description automatically generated,width=601,height=274]
+
+== Service Master
+
+The *Service Master* page allows you to create and manage service-related master data. The services can be either Field or Shop:
+
+* *Field*: Services performed outside the shop, typically at a customer location or remote site.
+* *Shop*: Services performed within the plant or facility.
+
+To access the *Service Master* page, click the *Setup and Administration* card and then select *Service Master*.
+
+image:setup-and-admin/image234.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Services* page appears listing all the services you created.
+
+[arabic]
+. *Search*: You can search for a service with any service master data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image235.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+. *Delete multiple services at once*:
+[arabic]
+.. To delete multiple services at once, select the services you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image236.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image237.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual services*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the service that you want to delete. +
+image:setup-and-admin/image238.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image239.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing service, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the service that you want to clone. +
+image:setup-and-admin/image240.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image241.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create new service
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image242.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the *Create Service Master* form that appears and then click *Save*. +
+image:setup-and-admin/image243.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+The service page appears with the following tabs/ options.
+
+=== Details tab
+
+The *Details* tab displays all basic information about the service. +
+image:setup-and-admin/image244.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Steps tab
+
+*Add steps*
+
+[arabic]
+. From the *Add* dropdown, select *Add Steps*.* +
+*image:setup-and-admin/image245.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Step Information* form that appears, fill in the fields and define Pass Fail Logic if required and then click *Save*. See link:#pass-fail-logic[Pass Fail logic] for information on Pass-Fail logic.* +
+*image:setup-and-admin/image246.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image247.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To configure fields, click the *Configure Fields* icon in the *Actions* column and then on the *Fields Configuration* page, configure the fields and click *Save*. +
+image:setup-and-admin/image248.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image249.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Add bulk fields: To configure fields for one or more steps, select the steps, from the *Actions* dropdown, select *Add Bulk Fields*, then on the *Field Configuration* page configure the fields and click *Save*. +
+image:setup-and-admin/image250.png[A screenshot of a computer Description automatically generated,width=601,height=272]* +
+ +
+*image:setup-and-admin/image249.png[A screenshot of a computer Description automatically generated,width=601,height=272]* +
+*
+
+After you add and configure field to a step, when the users start the step in the service from a work order a dialog with these fields will appear. +
+image:setup-and-admin/image251.png[A screenshot of a computer Description automatically generated,width=601,height=272]* +
+*
+
+[arabic, start=5]
+. *Delete*: Click the *Delete* icon in the *Actions* column or select the step and from the *Actions* dropdown and then select *Delete*. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image252.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image253.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Edit*: Click the *Edit* icon in the *Actions* column and on the form that appears, make changes and then click *Save*. +
+image:setup-and-admin/image254.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image255.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Pass Fail Logic
+
+After you enable the pass fail logic on the *Step Information* dialog, you will see the following set up options.
+
+[arabic]
+. *Add Services on Pass*: To add a service on pass, select the *Add Services on Pass* check box, and then from the *Add Services On Pass* dropdown list that appears, select the service. +
+ +
+You can select more than one service one by one by selecting them from the *Add Services on Pass* dropdown list. To add all the listed service, you can select the *Select All Consequent Services* option. +
+image:setup-and-admin/image256.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Add Services on Fail*: To add a service on fail, select the *Add Services on Fail* check box and from the *Add Services on Fail* dropdown list that appears, select the service to be added upon fail. +
+image:setup-and-admin/image257.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+You can select more than one service one by one by selecting them from the *Add Services on Fail* dropdown list. To add all the listed service, you can select the *Select All Consequent Services* option.
+. *Skip Services on Pass*: To skip services on pass, select the *Skip Services on Pass* check box, and then from the Skip Services on Pass drop down list that appears, select the service. +
+image:setup-and-admin/image258.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can select more than one service one by one by selecting them from the *Skip Services on Pass* dropdown list. To add all the listed service, you can select the *Select All Consequent Services* option.
+. *Skip Services on Fail*: To skip services on fail, select the *Skip Services on Fail* check box and then from the *Skip Services on Fail* dropdown list that appears, select the service. +
+image:setup-and-admin/image259.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can select more than one service one by one by selecting them from the *Skip Services on Fail* dropdown list. To add all the listed service, you can select the *Select All Consequent Services* option.
+. *Reperform Services on Pass*: To reperform services on pass, select the *Reperform Services on Pass* check box and then from the *Reperform Services on Pass* dropdown list that appears, select the service. +
+image:setup-and-admin/image260.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can select more than one service one by one by selecting them from the *Reperform Services on Pass* dropdown list. To add all the listed service, you can select the *Select All Consequent Services* option.
+. *Reperform Services on Fail*: To reperform services on fail, select the *Reperform Services on Fail* check box and then from the *Reperform Services on Fail* dropdown list that appears, select the service. +
+image:setup-and-admin/image261.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can select more than one service one by one by selecting them from the *Reperform Services on Fail* dropdown list. To add all the listed service, you can select the *Select All Consequent Services* option.
+. *Add Steps On Pass*: To add steps on pass, select the *Add Steps on Pass* check box.
+. *Add Steps On Fail*: To add steps on pass, select the *Add Steps On Fail* check box.
+. *Skip Steps on Pass*: To skip steps on pass, select the *Skip Steps on Pass* check box and then from the *Skip Steps on Pass* dropdown list that appears, select the step. +
+ +
+*Note*: You must have added at least one other step for the Skip Steps on Pass option. +
+image:setup-and-admin/image262.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can select more than one step one by one by selecting them from the *Skip Steps on Pass* dropdown list. To add all the listed steps, you can select the *Select All Consequent Steps* option.
+. *Skip Steps on Fail*: To skip steps on fail, select the *Skip Steps on Fail* check box and then from the *Skip Steps on Fail* dropdown list that appears, select the step. +
+ +
+*Note*: You must have added at least one other step for the Skip Steps on Fail option. +
+ +
+image:setup-and-admin/image263.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can select more than one step one by one by selecting them from the *Skip Steps on Fail* dropdown list. To add all the listed steps, you can select the *Select All Consequent Steps* option.
+. *Quotation Revision On Fail*: To enable revision of quotation on fail, select the *Quotation Revision On Fail* check box. +
+image:setup-and-admin/image264.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Return To Step On Fail*: To return to another step on fail, select the *Return To Step On Fail* check box and then from the *Return To Step On Fail* dropdown list that appears, select the step. +
+*Note*: You must have added at least one other step for the Return To Step on Fail option. +
+ +
+image:setup-and-admin/image265.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Return To Service On Fail*: To return to a service on fail, select the *Return To Service On Fail* check box and then from the *Return To Service On Fail* dropdown list that appears, select the service. +
+image:setup-and-admin/image266.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Once done, click *Save*.
+
+=== Consumables/ Tools tab
+
+**Add consumables +
+**Note: The consumables that are added here are at the service-level.
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image267.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Add Products* page, select the consumable products, specify the quantity and click *Add*. +
+image:setup-and-admin/image268.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete*: Click the *Delete* icon in the *Actions* column or select the product and from the *Actions* dropdown and then select *Delete*. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image269.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image270.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Packages
+
+The *Packages* page allows you to create and manage package-related master data.
+
+A package is a collection of products or services bundled together with defined quantities. This setup allows for easy management of grouped offerings, ensuring that the specified products or services are provided as a single package during transactions.
+
+To access the *Packages* page, click the *Setup and Administration* card and then select *Packages*. +
+image:setup-and-admin/image271.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Packages* page appears listing all the packages you created.
+
+[arabic]
+. *Search*: You can search for a package with any package data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image272.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+. *Delete multiple packages at once*:
+[arabic]
+.. To delete multiple packages at once, select the packages you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image273.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image274.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual packages*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the package that you want to delete. +
+image:setup-and-admin/image275.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image276.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing package, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the package that you want to clone. +
+image:setup-and-admin/image277.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image278.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create new packages
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image279.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the *Create Package* form that appears and click **Save. +
+**From the *Package Type* field you can select either “Product” or “Service”. If creating a package of products, select products and if creating a package of services, select “Service”.* +
+*image:setup-and-admin/image280.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The package page appears with the following tabs and options.
+
+=== Header tab
+
+The *Header* tab displays all basic information about the package. +
+image:setup-and-admin/image281.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Individual Services tab
+
+*Add services*
+
+[arabic]
+. From the *Add* dropdown, select *Add Existing Services*. +
+image:setup-and-admin/image282.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign Service Master* page, select the services, specify the quantity and then click *Add*. +
+image:setup-and-admin/image283.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. The services will be performed in the sequence you add them. You can arrange the services by clicking the *Arrange* button and then rearrange them on the *Arrange* dialog. +
+image:setup-and-admin/image284.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image285.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To delete the services, select the services, then from the *Actions* dropdown, select delete and then on the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image286.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image287.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Individual Products tab
+
+[arabic]
+. From the *Add* dropdown list, select *Add Existing Products*. +
+image:setup-and-admin/image288.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Add Products* age, select the products and then click *Add*. +
+image:setup-and-admin/image289.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete*: Select the product, then from the *Actions* dropdown, select *Delete*, and then on the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image290.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image291.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Sub Packages
+
+*Add Existing Product Packages*
+
+[arabic]
+. From the *Add* dropdown, select *Add Existing Product Packages*. +
+image:setup-and-admin/image292.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign Package* page, select the packages, specify the quantity and then click *Add*. +
+image:setup-and-admin/image293.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+*Add Existing Service Packages*
+
+[arabic]
+. From the *Add* dropdown list, select *Add Existing Service Packages*. +
+image:setup-and-admin/image293.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign Packages* page, select the packages, specify the quantity and then click *Add*. +
+image:setup-and-admin/image294.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete*: To delete packages or service packages, select them, then from the *Actions* dropdown, select *Delete* and then on the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image295.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image296.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+* +
+*
+
+== Price Book
+
+The *Price Book* page allows you to create and manage price book-related master data. Companies use the price book to set specific pricing for each customer, product, or service, either per plant or across multiple plants.
+
+To access the *Price Book* page, click the *Setup and Administration* card and then select *Price Book*.
+
+image:setup-and-admin/image297.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Price books* page appears listing all the price books you created.
+
+[arabic]
+. *Search*: You can search for a price book with any price book data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image298.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete multiple price books at once*:
+[arabic]
+.. To delete multiple price books at once, select the price books you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image299.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image300.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual price books*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the price book that you want to delete. +
+image:setup-and-admin/image301.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image302.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing price book, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the price book that you want to clone. +
+image:setup-and-admin/image303.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image304.png[A screenshot of a chat window Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+
+=== Create a new price book
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image305.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the *Create Price Book* form that appears and then click *Save*. +
+ +
+image:setup-and-admin/image306.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The price you define for the products in this price book will be applied when the customer account or the supplier account you select here matches the supplier account or customer account you specify in any process. If you do not specify the customer account or supplier account, then the price book is applied irrespective of the corresponding values you specify in any process.
+
+The price defined in the price book will be effective between the Start Date and End Date you select.
+
+=== Header tab
+
+After creating the price book, the price book page appears displaying the *Header* tab which shows all the basic information about the price book. +
+image:setup-and-admin/image307.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Details tab
+
+*Add existing products*
+
+[arabic]
+. From the *Add* dropdown, select *Add Existing Products*. +
+image:setup-and-admin/image308.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign Products* page, select the products and then click *Add*. +
+image:setup-and-admin/image309.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+*Add existing packages*
+
+[arabic]
+. From the *Add* dropdown, select *Add Existing Packages*. +
+image:setup-and-admin/image310.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign Packages* page that appears, select the package and then click *Add*. +
+image:setup-and-admin/image311.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+*Add existing services*
+
+[arabic]
+. From the *Add* dropdown, select *Add Existing Services*. +
+image:setup-and-admin/image312.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign Service Master* page that appears, select the services and then click *Add*. +
+image:setup-and-admin/image313.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+*Edit pricing details*
+
+[arabic]
+. Click the edit icon in the *Actions* column against the product, service or package. +
+image:setup-and-admin/image314.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the form that appears, provide pricing details and then click *Save*. +
+image:setup-and-admin/image315.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+*Pricing method*: If you have selected Rent as the Pricing Type, you can select multiple pricing methods in the *Pricing Method* field and then specify pricing for each pricing method below that. +
+image:setup-and-admin/image316.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+image:setup-and-admin/image317.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+*For services:* +
+image:setup-and-admin/image318.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+*Delete products, packages or services*
+
+[arabic]
+. To delete pricing set up condition for the products, packages or services individually, click the *Delete* icon in the *Actions* column and then on the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image319.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image320.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To delete in bulk, select the products, packages or services, then from the *Actions* dropdown select *Delete* and then on the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image321.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image322.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Users
+
+The *Users* page allows you to create and manage users-related master data.
+
+This includes adding, editing, or removing users who are authorized to use the Equipt portal. Each user represents an individual with access to the system, and their roles and permissions can be defined as needed.
+
+To access the *Users* page, click the *Setup and Administration* card and then select *Users*. +
+image:setup-and-admin/image323.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Users* page appears listing all the users you created.
+
+[arabic]
+. *Search*: You can search for a user with any user data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image324.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete multiple users at once*:
+[arabic]
+.. To delete multiple users at once, select the users you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image325.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Transfer User* dialog that appears, select the user to whom you want to transfer the resources and then click *Submit*. +
+image:setup-and-admin/image326.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm transferring resources. +
+image:setup-and-admin/image327.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual users*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the users that you want to delete. +
+image:setup-and-admin/image328.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. Transfer resources to another user +
+image:setup-and-admin/image329.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm transferring resources. +
+image:setup-and-admin/image330.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+. *Assign Entities – Roles*: Select the users, then from the *Actions* dropdown list, select *Assign Entities – Roles*, then on the *Assign Entity – Roles* dialog that appears, select entities, then click *Next*, then select the roles and then click *Save*. * +
+*image:setup-and-admin/image331.png[A screenshot of a computer Description automatically generated,width=601,height=272]* +
+*image:setup-and-admin/image332.png[A screenshot of a computer Description automatically generated,width=601,height=272]* +
+*image:setup-and-admin/image333.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Reset Password*: To sent password reset mail to the users, select the users and then from the *Actions* dropdown, select *Reset Password*. +
+The password reset link will be sent to the user’s email address. +
+image:setup-and-admin/image334.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Hide Email*: Select the user and then from the *Actions* dropdown, select *Hide Email*. +
+image:setup-and-admin/image335.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Unhide Email*: Select the user and then from the *Actions* dropdown, select *Unhide Email*. +
+image:setup-and-admin/image336.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create new users
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image337.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the *Create New User* form that appears and then click *Save*. +
+You can add an avatar/ picture for the user and also specify whether the user is blocked/ unblocked or a Office 365 user on the form. +
+image:setup-and-admin/image338.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the Assign Entities – Roles dialog that appears, you can assign entities, then click *Next*, then assign roles to the users and then click *Save*. +
+image:setup-and-admin/image339.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image340.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Details tab
+
+On the *Details* tab, you can view the basic information about the user. +
+image:setup-and-admin/image341.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can assign entity/role, reset password, edit and delete the user by clicking the respective buttons. +
+image:setup-and-admin/image342.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Org Chart tab
+
+The Org Chart tab displays a visual representation of the organizational structure.
+
+image:setup-and-admin/image343.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== User Session tab
+
+The User Session tab provides a graphical representation of user session details. +
+image:setup-and-admin/image344.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Assigned Entity tab
+
+The Assigned Entities tab displays assigned entities and roles. You can also add or assign new entities and roles to the user from this tab.
+
+image:setup-and-admin/image345.png[A screenshot of a computer Description automatically generated,width=601,height=272]* +
+* +
+*Assign Entities* +
+image:setup-and-admin/image346.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+*Assign roles* +
+image:setup-and-admin/image347.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== User Group
+
+The *User Group* page allows you to create and manage User Group-related master data. +
+User groups are collections of users who share common attributes within a system. They are used to simplify user management by grouping more than one user.
+
+To access the *User Group* page, click the *Setup and Administration* card and then select *User Group*.
+
+image:setup-and-admin/image348.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *User Groups* page appears listing all the user groups you created.
+
+[arabic]
+. *Search*: You can search for a user group with any user group data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image349.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+. *Delete multiple User Groups at once*:
+[arabic]
+.. To delete multiple user groups at once, select the user groups you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image350.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image351.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual User Groups*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the user group that you want to delete. +
+image:setup-and-admin/image352.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image353.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing user group, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the user group that you want to clone. +
+image:setup-and-admin/image354.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image355.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create a new user group
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image356.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Create* form that appears, provide a name for the user groups, then select the users as required and then click *Save*. +
+image:setup-and-admin/image357.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+The *Header* tab displays showing the basic information about the user. You can edit and delete the user group by clicking the respective buttons. +
+image:setup-and-admin/image358.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+Edit form appears when the Edit button is clicked. Make changes and click *Save*. +
+image:setup-and-admin/image359.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+Once the *Delete* button is clicked, click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image360.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Customer Accounts
+
+The *Customer Accounts* page allows you to create and manage Customer Account-related master data.
+
+To access the *Customer Accounts* page, click the *Setup and Administration* card and then select *Customer Accounts*.
+
+image:setup-and-admin/image361.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Customer Accounts* page appears listing all the customer accounts you created.
+
+[arabic]
+. On the *My Customer Accounts* tab you can view the customer accounts for which you’re either a collaborator or the owner. On the *All Customer Accounts* tab, you can view all the customer accounts. +
+image:setup-and-admin/image362.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Search*: You can search for a customer account with any customer account data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image363.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+. You can also filter the list by All, Approved, and Disapproved customer accounts by selecting them from the *All* dropdown. +
+image:setup-and-admin/image364.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete multiple Customer Accounts at once*:
+[arabic]
+.. To delete multiple customer accounts at once, select the customer accounts you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image365.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image366.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual Customer Accounts*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the customer account that you want to delete. +
+image:setup-and-admin/image367.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image368.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing customer account, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the customer account that you want to clone. +
+image:setup-and-admin/image369.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image370.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Approve accounts*: Select the account, then from the *Actions* dropdown, select *Approve Accounts* or click the *Approve* button in the *Actions* column against the customer account. +
+image:setup-and-admin/image371.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image372.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image373.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Assign Plant*:
+[arabic]
+.. Select the customer account, then from the *Actions* dropdown, select *Assign Plant*. +
+image:setup-and-admin/image374.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Assign Plant* page that appears, select the plants as required and click *Assign*. +
+image:setup-and-admin/image375.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Assign Entity*:
+[arabic]
+.. Select the customer accounts and then from the *Actions* dropdown list, select *Assign Entity*. +
+OR +
+Click the Entity button in the *Actions* column against the customer account. +
+image:setup-and-admin/image376.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image377.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Assign Entity* dialog that appears, select the entities and then click *Save*. +
+image:setup-and-admin/image378.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create a new customer account
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image379.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears and then click *Save*. +
+image:setup-and-admin/image380.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Details tab
+
+The *Details* tab of the customer account master page shows the basic information about the customer account. +
+image:setup-and-admin/image381.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Account Hierarchy tab
+
+The Account Hierarchy tab displays the hierarchy of the customer account. +
+image:setup-and-admin/image382.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+To add child accounts, click the *+* button next to the account name.
+
+image:setup-and-admin/image383.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+Fill in the form that appears and click *Save*. +
+image:setup-and-admin/image384.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== OM Neurons tab
+
+This tab shows the visual representation of the account hierarchy.
+
+image:setup-and-admin/image385.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Plants
+
+On the *Plants* tab you can assign plants to the customer account.
+
+[arabic]
+. From the *Add* dropdown, select *Assign Plants*. +
+image:setup-and-admin/image386.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Add Plants* page, select the plants and then click *Assign*. +
+image:setup-and-admin/image387.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Approve customer account
+
+[arabic]
+. Click the *Approve* button. +
+image:setup-and-admin/image388.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image389.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Disapprove customer account
+
+[arabic]
+. Click the *Disapprove* button. +
+image:setup-and-admin/image390.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image391.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Edit
+
+[arabic]
+. Click the *Edit* button. +
+image:setup-and-admin/image392.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Make required changes on the edit form that appears and click *Save*. +
+image:setup-and-admin/image393.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Delete
+
+[arabic]
+. Click the *Delete* button. +
+image:setup-and-admin/image394.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image395.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Customer Contacts
+
+The *Customer Contacts* page allows you to create and manage Customer Contact-related master data.
+
+To access the *Customer Contacts* page, click the *Setup and Administration* card and then select *Customer Contacts*.
+
+image:setup-and-admin/image396.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Customer Contacts* page appears listing all the customer contacts you created.
+
+[arabic]
+. On the *My Contacts* tab, you can view the list of customer contacts for which you are either an owner or a collaborator. On the *All Contacts* tab, you can view all the customer contacts. +
+image:setup-and-admin/image397.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Search*: You can search for a customer contact with any customer contact data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image398.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+. *Delete multiple Customer Contacts at once*:
+[arabic]
+.. To delete multiple customer contacts at once, select the customer contacts you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image399.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image400.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual Customer Contacts*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the customer contact that you want to delete. +
+image:setup-and-admin/image401.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image402.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing customer contact, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the customer contact that you want to clone. +
+image:setup-and-admin/image403.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image404.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Assign Entity*:
+[arabic]
+.. Click the *Entity* button in the *Action* column against the customer contact *OR* select the customer contacts and then select *Assign Entity* from the *Actions* dropdown list.* +
+ +
+*image:setup-and-admin/image405.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+image:setup-and-admin/image406.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Assign Entity* dialog that appears, select the entities as required and then click *Save*. +
+image:setup-and-admin/image407.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Assign Plant*:
+[arabic]
+.. Select the customer contact and then from the *Actions* dropdown, select *Assign Plant*. +
+image:setup-and-admin/image408.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Add Plant* page that appears, select the plants and then click *Assign*.
+
+=== Create a new customer contact
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image409.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears and then click *Save*. +
+image:setup-and-admin/image410.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Details tab
+
+On the *Details* tab, you can view the basic details about the customer contact. +
+image:setup-and-admin/image411.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Org Charts tab
+
+On the Org Charts tab, you can view the visual representation of the hierarchy of the customer contact. +
+image:setup-and-admin/image412.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+You can also add contacts by clicking the *Add Contacts* button. +
+image:setup-and-admin/image413.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image414.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Give portal access
+
+Once the portal access is given, the contact will have access to the e-commerce portal.
+
+[arabic]
+. Click the *Give Portal Access* button. +
+image:setup-and-admin/image415.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Assign Entities – Roles* dialog, select the entity and click *Next*. +
+image:setup-and-admin/image416.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Select the roles and click *Save*. +
+image:setup-and-admin/image417.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Edit
+
+Click the *Edit* button. +
+image:setup-and-admin/image418.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+On the *Edit* form that appears, make required changes and click *Save*. +
+image:setup-and-admin/image419.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Delete
+
+[arabic]
+. Click the *Delete* button. +
+image:setup-and-admin/image420.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image421.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Plants tab
+
+On the *Plants* tab, you can view all plants assigned to the customer contact and also assign new plants. +
+image:setup-and-admin/image422.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+*Assign new plants*
+
+[arabic]
+. From the *Add* dropdown list, select *Assign Plant*. +
+image:setup-and-admin/image423.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Add Plant* page that appears, select the plants and then click *Assign*.
+
+== Supplier Accounts
+
+The *Supplier Accounts* page allows you to create and manage Supplier Account-related master data.
+
+To access the *Supplier Accounts* page, click the *Setup and Administration* card and then select *Supplier Accounts*.
+
+image:setup-and-admin/image424.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Supplier Accounts* page appears listing all the supplier accounts you created.
+
+[arabic]
+. On the *My Supplier Accounts* tab, you can view the supplier accounts for which you are either the owner or a collaborator. The *All Supplier Accounts* tab lists all the supplier accounts.* +
+*image:setup-and-admin/image425.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Search*: You can search for a supplier account with any supplier account data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image426.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+. *Delete multiple Supplier Accounts at once*:
+[arabic]
+.. To delete multiple supplier accounts at once, select the supplier accounts you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image427.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image428.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual Supplier Accounts*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the supplier account that you want to delete. +
+image:setup-and-admin/image429.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image430.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing supplier account, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the supplier account that you want to clone. +
+image:setup-and-admin/image431.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image432.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Approve Accounts*:
+[arabic]
+.. Select the supplier accounts and then from the *Actions* dropdown list, select *Approve Accounts* OR click the *Approve* button in the *Actions* column against the supplier account. +
+image:setup-and-admin/image433.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image434.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image435.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Disapprove Accounts*:
+[arabic]
+.. Select the supplier accounts and then from the *Actions* dropdown list, select *Disapprove Accounts* OR click the *Disapprove* button in the *Actions* column against the supplier account.* +
+*image:setup-and-admin/image436.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image437.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. Click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image438.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Assign Entity*:
+[arabic]
+.. Click the *Entity* button in the *Actions* column against the supplier account *OR* select the supplier accounts and from the *Actions* dropdown, select *Assign Entity*. +
+image:setup-and-admin/image439.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image440.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Assign Entity* dialog that appears, select the entities and then click *Save*. +
+image:setup-and-admin/image441.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create new supplier account
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image442.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears and then click *Save*. +
+image:setup-and-admin/image443.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Details tab
+
+The *Details* tab displays the basic information about the supplier account. +
+image:setup-and-admin/image444.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Account Hierarchy tab
+
+The *Account Hierarchy* tab displays the hierarchy of the supplier account. +
+image:setup-and-admin/image445.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+You can create child accounts as follows.
+
+[arabic]
+. Click the *+* icon next to the account name. +
+image:setup-and-admin/image446.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears and click *Save*. +
+image:setup-and-admin/image447.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== OM Neurons tab
+
+This tab displays the visual representation of the account hierarchy. +
+image:setup-and-admin/image448.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Approve
+
+[arabic]
+. Click the *Approve* button. +
+image:setup-and-admin/image449.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image450.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Edit
+
+[arabic]
+. Click the *Edit* button. +
+image:setup-and-admin/image451.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Edit* form that appears, make required changes and click *Save*. +
+image:setup-and-admin/image452.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Delete
+
+[arabic]
+. Click the *Delete* button. +
+image:setup-and-admin/image453.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image454.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Supplier Contacts
+
+The *Supplier Contacts* page allows you to create and manage Supplier Contact-related master data.
+
+To access the *Supplier Contacts* page, click the *Setup and Administration* card and then select *Supplier Contacts*. +
+image:setup-and-admin/image455.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Supplier Contacts* page appears listing all the supplier contacts you created.
+
+[arabic]
+. On the *My Contacts* tab, you can view the supplier contacts for which you are either the owner or a collaborator. On the *All Contacts* page, you can view all the contacts. +
+image:setup-and-admin/image456.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Search*: You can search for a supplier contact with any supplier contact data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image457.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+. *Delete multiple Supplier Contacts at once*:
+[arabic]
+.. To delete multiple supplier contacts at once, select the supplier contacts you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image458.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image459.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual Supplier Contacts*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the supplier contact that you want to delete. +
+image:setup-and-admin/image460.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image461.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing supplier contact, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the supplier contact that you want to clone. +
+image:setup-and-admin/image462.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image463.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Assign Entity*
+[arabic]
+.. Click the *Entity* icon in the *Actions* column against the supplier contact *OR* select the supplier contacts and from the *Actions* dropdown, select *Assign Entity*. +
+ +
+image:setup-and-admin/image464.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image465.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Assign Entity* dialog that appears, select the entity and then click *Save*. +
+image:setup-and-admin/image466.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create new supplier contacts
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image467.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears and click *Save*. +
+image:setup-and-admin/image468.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+On the *Details* tab, you can view all the basic information about the supplier contact. +
+image:setup-and-admin/image469.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Org Charts tab
+
+The *Org Charts* tab displays the visual representation of the hierarchy. +
+image:setup-and-admin/image470.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Give Portal Access
+
+Once the portal access is given, the supplier gets access to the portal so that they can perform certification of assets.
+
+[arabic]
+. To assign entities and add roles, click the *Give Portal Access* button. +
+image:setup-and-admin/image471.png[extracted-media/media/image471,width=601,height=272]
+. On the *Assign Entities- Roles* dialog, select the entity and click *Next*. +
+image:setup-and-admin/image472.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Select the roles and click *Save*. +
+image:setup-and-admin/image473.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+Edit
+
+[arabic]
+. Click the *Edit* button. +
+image:setup-and-admin/image474.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Edit* form, make required changes and click *Save*. +
+image:setup-and-admin/image475.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Add contacts
+
+You can add contacts by clicking the *Add Contacts* button. +
+image:setup-and-admin/image476.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image477.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== PDF Templates
+
+The *PDF Templates* page allows you to create and manage PDF Templates.
+
+To access the *PDF Templates* page, click the *Setup and Administration* card and then select *PDF Templates*. +
+image:setup-and-admin/image478.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *PDF Templates* page appears listing all the PDF templates you created.
+
+[arabic]
+. *Search*: You can search for a PDF template with any PDF template data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image479.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete multiple PDF Templates at once*: +
+ +
+You can delete only those templates for which you are the owner.
+[arabic]
+.. To delete multiple PDF templates at once, select the PDF templates you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image480.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image481.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual PDF Templates*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the PDF template that you want to delete. +
+image:setup-and-admin/image482.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image483.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing PDF template, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the PDF template that you want to clone. +
+image:setup-and-admin/image484.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required, set up the template, add more tables if needed, click *Save* to save/ *Save and Preview* to save and preview the template and then and then click *Close* to close the form. +
+image:setup-and-admin/image485.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Preview*: To preview a template, click the *Preview* icon in the *Actions* column against the template. +
+image:setup-and-admin/image486.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+The template will be downloaded/ opened for the preview.
+
+=== Create new PDF Template
+
+[arabic]
+. Click the *Add* button.
+. On the page that appears, provide name, select entity, select type (resource) and specify number of product columns. +
+image:setup-and-admin/image487.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To show page numbers in the footer of PDF files, select the “Show page number in footer” check box. +
+image:setup-and-admin/image488.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To change the orientation of PDF file to landscape, select the “Landscape” checkbox. +
+image:setup-and-admin/image489.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Make required changes in the content and formatting for each table within the PDF template.
+. You can insert tables, upload and insert images, and insert variables into the sections including Header, Above Table, Below Table, Footer, etc. +
+image:setup-and-admin/image490.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To add new tables, click the *Add Tables* button at the bottom. +
+image:setup-and-admin/image491.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+Select a resource from the resource name field and field name from the field name field. +
+image:setup-and-admin/image492.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+You can add more fields by clicking the + button. +
+image:setup-and-admin/image493.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+[arabic, start=8]
+. Once done click *Save* to save or click *Save & Preview* to save and preview the template. +
+image:setup-and-admin/image494.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Pad Master
+
+The *Pad Master* page allows you to create and manage Pad-related master data. This page provides a list of pads or locations that are specific to each customer. Users can add new pads, update existing information.
+
+To access the *Pad Master* page, click the *Setup and Administration* card and then select *Pad Master*.
+
+image:setup-and-admin/image495.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Pad Master* page appears listing all the pads you created.
+
+[arabic]
+. *Search*: You can search for a pad with any pad data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image496.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+. *Delete multiple Pads at once*:
+[arabic]
+.. To delete multiple pads at once, select the pads you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image497.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image498.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual Pads*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the pad that you want to delete. +
+image:setup-and-admin/image499.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image500.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing pad, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the pad that you want to clone. +
+image:setup-and-admin/image501.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image502.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create new pads
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image503.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the *Create Pad Master* form that appear and then click *Save*. +
+image:setup-and-admin/image504.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The Pad selection dropdown, available in forms throughout the system, will display pads based on the customer account selected. The pads you create will only appear in the dropdown if they were associated with the selected customer account during pad creation.
+
+The *Header* tab displays the basic information about the pad. +
+ +
+image:setup-and-admin/image505.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Well Master
+
+The *Well Master* page allows you to create and manage Well-related master data. Each drilling site located on a pad has specific information linked to it, which is maintained in the Well Master.
+
+To access the *Well Master* page, click the *Setup and Administration* card and then select *Well Master*. +
+image:setup-and-admin/image506.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Well Master* page appears listing all the wells you created.
+
+[arabic]
+. *Search*: You can search for a well with any well data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image507.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+. *Delete multiple Wells at once*:
+[arabic]
+.. To delete multiple wells at once, select the wells you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image508.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image509.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual Wells*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the well that you want to delete. +
+image:setup-and-admin/image510.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image511.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing well, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the well that you want to clone. +
+image:setup-and-admin/image512.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image513.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create a new well
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image514.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the *Create Well Master* form that appears and then click *Save*. +
+image:setup-and-admin/image515.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The Well Selection dropdown, available in various forms throughout the system, will display wells based on the pad selected during their creation. Only wells that were associated with the selected pad during their creation will appear in the dropdown.
+
+=== Details tab
+
+On the *Details* tab, you can view the basic details about the well. +
+image:setup-and-admin/image516.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+You can edit or delete the well by clicking the respective button. +
+image:setup-and-admin/image517.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Well Number tab
+
+On the *Well Number* tab, you can view and create well numbers associated with the well.
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image518.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Create Well Numbers* form that appears, provide the well number in the *Well Number* field and then click *Save*. +
+image:setup-and-admin/image519.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+____
+To delete well numbers, select the well numbers, then from the *Actions* dropdown, select *Delete* and then on the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image520.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image521.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+*OR* +
+To delete well numbers individually, click the *Delete* icon in the *Actions* column against the well number and then on the confirmation dialog that appears, click *Confirm*.
+
+image:setup-and-admin/image522.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image523.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+To edit well number, click the *Edit* icon in the *Actions* column against the well number, then on the *Update* form that appears, make changes to the well number and then click *Save*. +
+image:setup-and-admin/image524.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+____
+
+== Support Tickets
+
+The *Support Tickets* page allows you to create and manage support tickets. You can report bug, submit requests for enhancements and new features in a support ticket.
+
+To access the *Support Tickets* page, click the *Setup and Administration* card and then select *Support Tickets*.
+
+image:setup-and-admin/image525.png[A screenshot of a computer Description automatically generated,width=601,height=346]
+
+The *Support Tickets* page appears listing all the support tickets.
+
+[arabic]
+. On the *My Support Tickets* tab, you can view the support tickets for which you are either the owner or a collaborator. On the *All Support Tickets* tab, you can view all the support tickets.
+. *Search*: You can search for a support ticket with any support ticket data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image526.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete multiple Support Tickets at once*:
+[arabic]
+.. To delete multiple support tickets at once, select the support tickets you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image527.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image528.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual Support Tickets*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the support ticket that you want to delete. +
+image:setup-and-admin/image529.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image528.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Export to Excel*: Export the support ticket list to an Excel file by clicking the *Export to Excel* button. +
+image:setup-and-admin/image530.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Create a new support ticket
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image531.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the *Create Support Ticket* form that appears and then click *Save*. You select ticket type, provide title and description and upload images if any. +
+image:setup-and-admin/image532.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+Once the support ticket is created, you can open it from the Support Tickets list and on the *Activity* tab, you can add the activities if required. +
+image:setup-and-admin/image533.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Schedule Reports
+
+The *Scheduled Reports* refer to automated reports generated and delivered at specified intervals. These reports are typically set up to run and be distributed to stakeholders on a regular schedule, such as daily, weekly, monthly, or quarterly. *Scheduled reports* help ensure that relevant parties receive timely updates without needing to manually generate the reports each time. Here are some key aspects of scheduled reports: +
+ +
+To access the *Schedule Reports,* click the *Setup and Administration* card and then select *Schedule Reports.* User can also access it from the top search bar. +
+image:setup-and-admin/image534.png[A screenshot of a computer Description automatically generated,width=672,height=290]
+
+[arabic]
+. *Add:* To add a new Report, user needs to click on the *Add* button.
+
+image:setup-and-admin/image535.png[A screenshot of a computer Description automatically generated,width=624,height=195]
+
+[arabic, start=2]
+. *Form:* User needs to fill in the **Report Name, s**elect in the *Type of Report.* +
+image:setup-and-admin/image536.png[A screenshot of a computer Description automatically generated,width=604,height=401]
+. *Filter:* In this dropdown, user can select the Filter option that are needed in the report. +
+image:setup-and-admin/image537.png[A screenshot of a computer Description automatically generated,width=613,height=422]
+. *Columns:* Select the columns from the *Columns* dropdown.
+. *Users:* From the User dropdown select the users which will receive the Report. +
+image:setup-and-admin/image538.png[A screenshot of a computer Description automatically generated,width=614,height=421]
+. *Time:* Set the time in the *Time field.* This will ensure that the selected users receive the report at the scheduled time.
+. And then click on *Save.* +
+image:setup-and-admin/image539.png[A screenshot of a computer Description automatically generated,width=576,height=398] +
+image:setup-and-admin/image540.png[A screenshot of a computer Description automatically generated,width=576,height=161]
+
+== Dashboard Master
+
+The *Dashboard Master* to help users create and manage dashboards. This tools often offer features like drag-and-drop interfaces, integration with various data sources, customizable templates, and real-time data updates.
+
+To access the *Dashboard master,* click the *Setup and Administration* card and then select *Dashboard Master.* +
+ +
+Also, you can search from the search bar on the home page. +
+image:setup-and-admin/image541.png[A screenshot of a computer Description automatically generated,width=673,height=307]
+
+[arabic]
+. *Listing Page:* User can see the list Dashboards. +
+image:setup-and-admin/image542.png[A screenshot of a computer Description automatically generated,width=653,height=201]
+. *Add* New *Dashboard:* Click on *Add* button to create a new *Dashboard* view. +
+image:setup-and-admin/image543.png[A screenshot of a computer Description automatically generated,width=652,height=182]
+. *Add Name*: +
+image:setup-and-admin/image544.png[A screenshot of a computer Description automatically generated,width=652,height=223]
+. *KPI:* User can select from the *KPI dropdown.* +
+image:setup-and-admin/image545.png[A screenshot of a computer Description automatically generated,width=652,height=256]
+. *View:* Enable the Table view through the radio button. +
+image:setup-and-admin/image546.png[A screenshot of a computer Description automatically generated,width=656,height=268]Then click on *Add Chart.*
+. Once all *KPIs* added in the dashboard, click on the Save button, to create the Dashboard view. +
+ +
+image:setup-and-admin/image547.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Logs
+
+The *Logs* help you track the actions performed in the resources.
+
+To access the *Logs* page, click the *Setup and Administration* card and then select *Logs.* +
+Also, you can search from the search bar on the home page. +
+image:setup-and-admin/image548.png[A screenshot of a computer Description automatically generated,width=633,height=300] +
+In *Logs,* user get option to select the resource from the dropdown.
+
+*Select Resource:* You can select the resource from the dropdown. +
+image:setup-and-admin/image549.png[A screenshot of a computer Description automatically generated,width=633,height=171] +
+Once the resource is selected, the user can start selecting the type, he is looking for. For e.g., if resource selected is Serialized Assets, then in next dropdown, user needs to select the asset. +
+image:setup-and-admin/image550.png[A screenshot of a computer Description automatically generated,width=624,height=259]To view the detailed action, user can click on the *View* Icon under the *Actions Column*. +
+image:setup-and-admin/image551.png[A screenshot of a computer Description automatically generated,width=624,height=146]
+
+== Chart of accounts
+
+The *Chart Of Account* page allows you to create and manage *Chart Of Account*-related master data.
+
+To access the *Chart Of Account* page, click the *Setup and Administration* card and then select *Chart Of Account*. +
+image:setup-and-admin/image552.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Chart Of Account* page appears listing all the *chart of accounts* you created.
+
+[arabic]
+. *Search*: You can search for a *Chart Of Account* with any *Chart Of Account* data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image553.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete multiple Chart Of Account at once*:
+[arabic]
+.. To delete multiple *chart of accounts* at once, select the *chart of accounts* you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image554.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image555.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual Chart Of Account*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the *Chart Of Account* that you want to delete. +
+image:setup-and-admin/image556.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image557.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing *Chart Of Account*, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the *Chart Of Account* that you want to clone. +
+image:setup-and-admin/image558.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image559.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+
+=== Create new chart of account
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image560.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears and click *Save*. +
+image:setup-and-admin/image561.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Details* tab displays the basic information about the chart of account. +
+image:setup-and-admin/image562.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Edit
+
+[arabic]
+. Click the *Edit* button. +
+image:setup-and-admin/image563.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the edit form that appears, make required changes and click *Save*. +
+image:setup-and-admin/image564.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Delete
+
+[arabic]
+. Click the *Delete* button. +
+image:setup-and-admin/image565.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image566.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Lock Transactions
+
+On the *Lock Transactions* page, you can lock transactions for products which can be done resource-wise. So the user will not be able to perform any activities or transactions within the lock transaction period.
+
+To access the *Lock Transactions* page, click the *Setup and Administration* card and then select *Lock Transactions*.
+
+image:setup-and-admin/image567.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Lock Transactions* page appears listing all the *lock transactions* you created.
+
+[arabic]
+. *Search*: You can search for a *Lock Transactions* with any *Lock Transactions* data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image568.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete multiple Lock Transactions at once*:
+[arabic]
+.. To delete multiple *lock transactions* at once, select the *lock transactions* you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image569.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image570.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual Lock Transactions*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the *Lock Transactions* that you want to delete. +
+image:setup-and-admin/image571.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image570.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing *Lock Transactions*, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the *Lock Transactions* that you want to clone. +
+image:setup-and-admin/image572.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image573.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+===  +
+Create lock transactions
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image574.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears and click *Save*. +
+image:setup-and-admin/image575.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+All transactions in the resource you selected for the product you selected will be blocked for the duration you specified (From Date and To Date).
+
+== Workflow
+
+*Access the workflow page*
+
+In the *Search* bar on the home page, search for workflow and select it.
+
+image:setup-and-admin/image576.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+=== Create new workflow
+
+Click the *Add* button to start creating a new workflow.
+
+image:setup-and-admin/image577.png[A screenshot of a computer Description automatically generated,width=601,height=261]
+
+On the *Add Workflow* dialog, provide a workflow name and select a workflow resource.
+
+image:setup-and-admin/image578.png[A screenshot of a computer Description automatically generated,width=601,height=269] +
+ +
+Add condition
+
+Click the *Add Condition* button**.**
+
+image:setup-and-admin/image579.png[A screenshot of a computer Description automatically generated,width=601,height=253]
+
+On the *Condition* dialog, select the field and the value as the condition (Example: Service Required checkbox- Yes or No).image:setup-and-admin/image580.png[A screenshot of a computer Description automatically generated,width=601,height=251]image:setup-and-admin/image581.png[A screenshot of a computer Description automatically generated,width=601,height=254]image:setup-and-admin/image582.png[A screenshot of a computer Description automatically generated,width=601,height=249]
+
+Add Steps
+
+Go to the *Step* tab and click *Add Step*. +
+image:setup-and-admin/image583.png[A screenshot of a computer Description automatically generated,width=601,height=253]
+
+Provide the step name.image:setup-and-admin/image584.png[A screenshot of a computer Description automatically generated,width=601,height=232]
+
+Configure and set up the step. +
+image:setup-and-admin/image585.png[A screenshot of a computer Description automatically generated,width=601,height=251]image:setup-and-admin/image586.png[A screenshot of a computer Description automatically generated,width=601,height=481] +
+ +
+Add fields for the step data. +
+image:setup-and-admin/image587.png[A screenshot of a computer Description automatically generated,width=601,height=284]
+
+Once done, click *Save*.image:setup-and-admin/image588.png[A screenshot of a computer Description automatically generated,width=601,height=481]
+
+Add other steps (Example: Repair) +
+image:setup-and-admin/image589.png[A screenshot of a computer Description automatically generated,width=601,height=250]
+
+Configure / set up the step and add fields. +
+ +
+image:setup-and-admin/image590.png[A screenshot of a computer Description automatically generated,width=601,height=250]
+
+The following fields are added for the example to the Repair step.
+
+image:setup-and-admin/image591.png[A screenshot of a computer Description automatically generated,width=601,height=283]image:setup-and-admin/image592.png[A screenshot of a computer Description automatically generated,width=601,height=285] +
+Once done, click *Save*.image:setup-and-admin/image593.png[A screenshot of a computer Description automatically generated,width=601,height=250]
+
+=== Example workflow scenario
+
+To see the above workflow working, open the Vehicle Inspection Report since it is the resource you selected for the workflow.
+
+image:setup-and-admin/image594.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+Click the *Add* button.
+
+image:setup-and-admin/image595.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+On the *Create* dialog, fill in the fields and select the *Service Required* checkbox and click *Save*.
+
+Note that the condition you added as an example is Service Required field value to be Yes.
+
+image:setup-and-admin/image596.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+Open the Workflow Report resource.
+
+image:setup-and-admin/image597.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+Since you have selected the *Service Required* checkbox (value: Yes), the workflow is automatically initiated and listed on the Workflow report page.
+
+image:setup-and-admin/image598.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+When you open the workflow, you can view and perform the steps you added to the workflow.
+
+image:setup-and-admin/image599.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+Consumable step in the workflow
+
+image:setup-and-admin/image600.png[A screenshot of a computer Description automatically generated,width=601,height=323]
+
+Click *Add*.image:setup-and-admin/image600.png[A screenshot of a computer Description automatically generated,width=601,height=323]
+
+Select the products and click *Add*.
+
+image:setup-and-admin/image601.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+image:setup-and-admin/image602.png[A screenshot of a computer Description automatically generated,width=601,height=323]
+
+image:setup-and-admin/image603.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+Perform Step 2 in the workflow (Repair)
+
+Click *Add*.
+
+The fields you added to Step 2 of the workflow will be displayed on the form.
+
+image:setup-and-admin/image604.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+Close the workflow
+
+Once the step within the workflow is completed, you can close the workflow by clicking *Close*.
+
+image:setup-and-admin/image605.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+Confirm closing the workflow by clicking *Confirm*.
+
+image:setup-and-admin/image606.png[A screenshot of a computer Description automatically generated,width=462,height=194] +
+ +
+The workflow status will be changed to Complete.
+
+image:setup-and-admin/image607.png[A screenshot of a computer Description automatically generated,width=601,height=285]
+
+== Competency Type
+
+The *Competency Type* page allows you to create and manage *Competency Type*-related master data. +
+* +
+Competency and competency type*:
+
+* Competency is a broad skill or area of expertise required for a job. It represents the broader category of knowledge or proficiency necessary for performing tasks effectively.
+* Competency Type specifies a specialized role or focus within that competency. It defines the specific roles or functions that fall under the competency, highlighting variations in skills or responsibilities within the same area of expertise.
+* *Example*: If *development* is a competency, the competency types could be *front-end developer*, *back-end developer*, or *full-stack developer*, representing different specializations within the development field.
+
+image:setup-and-admin/image608.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+To access the *Competency Type* page, click the *Setup and Administration* card and then select *Competency Type*.
+
+The *Competency Type* page appears listing all the *competency types* you created.
+
+[arabic]
+. *Search*: You can search for a *Competency Type* with any *Competency Type* data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image609.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete multiple Competency Type at once*:
+[arabic]
+.. To delete multiple *competency types* at once, select the *competency types* you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image610.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image611.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual Competency Type*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the *Competency Type* that you want to delete. +
+image:setup-and-admin/image612.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image613.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing *Competency Type*, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the *Competency Type* that you want to clone. +
+image:setup-and-admin/image614.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image615.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+
+=== Create new competency type
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image616.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears and click *Save*. +
+image:setup-and-admin/image617.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Details tab
+
+This tab displays the basic information about the competency type. +
+ +
+image:setup-and-admin/image618.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Competency tab
+
+On this tab you can add and view competencies against the competency type.
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image619.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears and click *Save*. +
+image:setup-and-admin/image620.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To edit the competency:
+[loweralpha]
+.. Click the *Edit* icon in the *Action* column. +
+image:setup-and-admin/image621.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Update* form, make required changes and click *Save*. +
+image:setup-and-admin/image622.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. To delete competency:
+[loweralpha]
+.. Click the *Delete* icon in the *Actions* column. +
+image:setup-and-admin/image623.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. Click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image624.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Edit
+
+[arabic]
+. Click the *Edit* button. +
+image:setup-and-admin/image625.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Update* form that appears, make required changes and click *Save*. +
+image:setup-and-admin/image626.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Delete
+
+[arabic]
+. Click the *Delete* button. +
+image:setup-and-admin/image627.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image628.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Competencies
+
+The *Competencies* page allows you to create and manage *Competency*-related master data.
+
+To access the *Competencies* page, click the *Setup and Administration* card and then select *Competencies*.
+
+image:setup-and-admin/image629.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+The *Competencies* page appears listing all the *competencies* you created.
+
+[arabic]
+. *Search*: You can search for a *Competency* with any *Competency* data by providing the search keywords in the *Search* fields. +
+image:setup-and-admin/image630.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete multiple Competency at once*:
+[arabic]
+.. To delete multiple *competencies* at once, select the *competencies* you want to delete and then from the *Actions* dropdown list, select *Delete*. +
+image:setup-and-admin/image631.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm* to confirm deletion. +
+image:setup-and-admin/image632.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Delete individual Competency*:
+[arabic]
+.. Click the *Delete* icon in the *Actions* column against the *Competency* that you want to delete. +
+image:setup-and-admin/image633.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the confirmation dialog that appears, click *Confirm*. +
+image:setup-and-admin/image634.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. *Clone*: To create a clone of an existing *Competency*, do the following.
+[arabic]
+.. Click the *Clone* icon in the *Actions* column against the *Competency* that you want to clone. +
+image:setup-and-admin/image635.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. On the *Clone* form that appears, make changes to the field values if required and then click *Save*. +
+image:setup-and-admin/image636.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. See the link:#common-features[Common Features] section for more information on the common features.
+
+=== Create a competency
+
+[arabic]
+. Click the *Add* button. +
+image:setup-and-admin/image637.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Fill in the fields on the form that appears and click *Save*. +
+image:setup-and-admin/image638.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Edit
+
+[arabic]
+. Click the *Edit* button. +
+image:setup-and-admin/image639.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. On the *Update* form that appears, make required changes and click *Save*. +
+image:setup-and-admin/image640.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Delete
+
+[arabic]
+. Click the *Delete* button. +
+image:setup-and-admin/image641.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Click *Confirm* on the confirmation dialog that appears. +
+image:setup-and-admin/image642.png[A screenshot of a computer Description automatically generated,width=601,height=272]

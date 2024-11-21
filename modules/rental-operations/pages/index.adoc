@@ -1,0 +1,35 @@
+= Rental Operations Management
+
+[.exampleSummary]
+--
+The Rental Operations Management module helps you to efficiently track asset lifecycles, predict maintenance needs, accurately bill customers, and optimize subleasing and subcontracting processes.
+
+* *Streamlined Order Management:* Easily manage asset lifecycle and track usage.
+* *Predictive Maintenance:* Prolong asset life and prevent costly failures.
+* *Accurate Billing:* Ensure timely and accurate billing for rentals.
+* *Efficient Subleasing:* Optimize subleasing and subcontracting processes.
+
+--
+
+
+++++
+<div class="nav-card-container">
+++++
+[nav-card]
+--
+* xref:rental-jobs.adoc[]
+--
+
+[nav-card]
+--
+* xref:rental-jobs.adoc[Setup & Administration]
+--
+
+[nav-card]
+--
+* xref:rental-jobs.adoc[Rental Operations Management]
+--
+
+++++
+</div>
+++++

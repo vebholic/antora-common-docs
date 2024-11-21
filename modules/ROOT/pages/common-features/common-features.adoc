@@ -1,0 +1,295 @@
+= Common Features
+:toc: macro
+
+[.exampleSummary]
+--
+This section outlines common features that are available across multiple resources and pages within the Equipt portal. These features provide you with flexibility to manage data. While the specific options may vary slightly depending on the resource, the general functionality remains consistent.
+--
+
+toc::[]
+
+*Example: Customer Accounts* page
+
+The *Customer Accounts* resource offers the following:
+
+* *Apply Filter*
+* *Download Template*
+* *Export to Excel*
+* *Import from Excel*
+* *Rows per page*
+
+== Apply Filter
+
+The *Filter* function allows you to refine your results based on specific criteria within multiple columns.
+
+NOTE: This is different from the Column Search feature, which only searches within a single column.
+
+[arabic]
+. Click the *Filter* button.
++
+image:setup-and-admin/image61.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. On the *Filter* form that appears, specify the filter criteria.
++
+image:setup-and-admin/image62.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. To apply the filter, click the *Apply Now* button.
++
+image:setup-and-admin/image63.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. *Saving Filters*
++
+To save a filter for later use, click the *Save Filter* button.
++
+image:setup-and-admin/image64.png[A screenshot of a computer Description automatically generated,width=601,height=272]
++
+A dialog box will appear where you have the following options:
++
+--
+* *Title*: Provide a title for the filter.
+* *Set this as Default:* If you select this option, the filter will be automatically applied whenever you access the resource.
+* *Private:* If you select this option, the filter will only be visible to you.
+* *Everyone:* If you select this option, the filter will be visible to all users.
+--
++
+image:setup-and-admin/image65.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. *Default Sorting*: If you've selected *Set this as Default*, the *Default Sorting* checkbox will become available.
++
+--
+* By selecting this checkbox, you can specify the default sorting order for the filtered results.
+
+* Use the *Sort By* and *Sorting Order* dropdowns to choose the sorting criteria and direction (ascending or descending).
+--
++
+image:setup-and-admin/image66.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. Once done, click *Save*.
+
+*After Saving a Filter*
+
+The next time you click the *Filter* button, the *Select a Filter Set* dropdown on the *Filters* dialog will list any saved filters you've created, based on their visibility settings (private or everyone). Private filters will only be visible to you, while public filters will be visible to all users.
+
+You can then choose this filter to quickly apply the same criteria.
+
+* *Edit:* To edit a saved filter, click the edit icon next to it in the dropdown.
+* *Delete:* To delete a saved filter, click the delete icon next to it in the dropdown.
+
+image:setup-and-admin/image67.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Download Template and Import from Excel
+
+To upload data or list items (Example: multiple customer accounts) to the system, you can use the *Download Template* feature.
+
+[arabic]
+. *Download the template:* Click the *Download Template* button to obtain a pre-formatted Excel file/ template.
++
+image:setup-and-admin/image68.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. *Fill in the information:* An Excel file will be downloaded to your system's default download folder. Complete the required fields in the template with the data (Ex: customer account data) and save it.
++
+image:setup-and-admin/image69.png[A screenshot of a computer Description automatically generated,width=601,height=309]
++
+NOTE: The columns highlighted in green refers to mandatory fields.
+
+. *Save and import:*
+[arabic]
+.. Click the *Import from Excel* button to upload the data to the system.
++
+image:setup-and-admin/image70.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+.. *Browse*: Navigate to the location of your saved template and select it.
+.. Click the *Open* or *Import* button to begin the upload process.
+
+== Export to Excel
+
+The *Export to Excel* button is used to export list or grid data (Ex: customer account data) from the system to an Excel file.
+
+* *Export selected items:* To export specific customer accounts, select the desired items by checking the corresponding checkboxes and then click *Export to Excel*. +
+image:setup-and-admin/image71.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image72.png[A screenshot of a computer Description automatically generated,width=601,height=253]
+* *Export all items:* To export all customer accounts, click *Export to Excel* without selecting individual items. +
+image:setup-and-admin/image73.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image74.png[A screenshot of a computer Description automatically generated,width=601,height=253]
+
+== Arrange View
+
+The *Arrange* *View* button allows you to customize the column sequence in the list or grid for better organization. You can personalize the column order to suit your preferences and those of other users. By arranging the columns, you can prioritize and view the most important information. +
+
+=== Accessing the Arrange View
+
+To customize the column sequence, click the *Arrange* button. This will open the *View* dialog, which contains the *Reset* and *Create View* buttons.
+
+image:setup-and-admin/image75.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+image:setup-and-admin/image76.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Creating a New View
+
+[arabic]
+. *Click Create View:* In the *View* dialog, click the *Create View* button.
++
+image:setup-and-admin/image77.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. *Name the View:* Provide a descriptive name for the new view.
++
+image:setup-and-admin/image78.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. *Set Access:* Choose either *Everyone* or *Private* to determine who can see and use this view.
++
+image:setup-and-admin/image79.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+. *Set as Default:* If you want this view to be the default for all users, select the *Default* checkbox.
++
+image:setup-and-admin/image80.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+=== Customizing the View
+
+* *Enable/Disable All Columns:* Use the toggle to show or hide all columns at once.
++
+image:setup-and-admin/image81.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+* *Search for Columns:* Enter a search term in the *Search* field to quickly find specific columns.
++
+image:setup-and-admin/image82.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+* *Toggle Columns:* Click the toggle switch next to a column to show or hide it.
++
+image:setup-and-admin/image83.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+* *Arrange Columns:* Drag and drop columns to reorder them. Click the image:setup-and-admin/image84.png[extracted-media/media/image84,width=24,height=21] icon to the left of a column header to start dragging.
++
+image:setup-and-admin/image85.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+Once done, you can save the view by clicking *Save* OR to reset your changes click the *Reset* button.
+
+=== Saved views
+
+After saving a view, it will be listed in the *View* dialog.
+
+* *Visibility*: The visibility of the view will depend on the access level you selected (private or everyone).
+* *Edit:* To edit a saved view, click the edit icon next to its name.
+* *Delete:* To delete a saved view, click the delete icon next to its name.
+
+image:setup-and-admin/image86.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+
+
+== Rows per page
+
+*To adjust the number of rows shown per page*:
+
+[arabic]
+. Locate the *Rows Per Page* dropdown at the bottom right of the grid/list. +
+image:setup-and-admin/image87.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Select your desired number of rows from the options (25, 50, 100, 250, or 500). +
+image:setup-and-admin/image88.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+____
+The grid will immediately update to display the selected number of rows.
+____
+
+*To navigate between pages within the grid*:
+
+[arabic]
+. Find the *<* and *>* buttons next to the.
+* Click the *<* button to move to the previous page of rows.
+* Click the *>* button to move to the next page of rows.
+
+____
+image:setup-and-admin/image89.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+____
+
+*Rows per page indicator*: The currently displayed rows per page indicator is displayed
+
+*Example*: “1-25 of 123 “: This indicator shows the range of rows currently displayed (rows 1 to 25) out of the total number of rows (123). +
+image:setup-and-admin/image90.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Opening Individual Records/ Accessing Record Details
+
+In any grid/ list that lists the items you can click the hyperlinked name or number to open the master page of the record. +
+image:setup-and-admin/image91.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image92.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Workspace
+
+*Workspace*: You’ll see the following options when the *Workspace* button is clicked. +
+image:setup-and-admin/image93.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+[arabic]
+. Create tasks by clicking the *+* button against the *Task* label, then fill in the form that appears and then save. +
+image:setup-and-admin/image94.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image95.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image96.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Create events by clicking the *+* button against the *Event* label, then fill in the form that appears and then save. +
+image:setup-and-admin/image97.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image98.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image99.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Create case by clicking the *+* button against the *Case* label, then fill in the form that appears and then save. +
+image:setup-and-admin/image100.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image101.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image102.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Create notes by clicking the *+* button against the *Note* label, then fill in the form that appears and then save. +
+image:setup-and-admin/image103.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image104.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Send email by clicking the "+" button next to the "Email" label. This opens a dedicated email composer where you can specify the subject line, recipients, attach files and images, compose your message in the text editor, and then send the email. +
+image:setup-and-admin/image105.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image106.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image107.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Attachments: You can create folders by clicking the folder icon against the *Attachment* label and also add attachment by clicking the *+* button. +
+image:setup-and-admin/image108.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image109.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image110.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. View History: Click the *History* button. The history will be displayed on the History page. +
+image:setup-and-admin/image111.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image112.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
+== Preview
+
+[arabic]
+. Click the *Preview* button. +
+image:setup-and-admin/image113.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Add or remove columns: Click the dropdown icon and select or deselect the columns as required. +
+image:setup-and-admin/image114.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Sort columns:
+[loweralpha]
+.. From the *Sort By* dropdown, select the column by which you want to get the list sorted. +
+image:setup-and-admin/image115.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. From the Order By dropdown, select the sort order (ascending or descending). +
+image:setup-and-admin/image116.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+Example: If you have applied sort by Qty in the ascending order, then the list on the preview will be sorted by quantity in the ascending order. +
+image:setup-and-admin/image117.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Save view:
+[loweralpha]
+.. To save view for later usage, click the *Save View* button. +
+image:setup-and-admin/image118.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. Provide a name for the view and specify the access level. +
+If you select Private, then only you can see and access this view. If you select Everyone, then all users can see and access this view. +
+image:setup-and-admin/image119.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. Once done, click *Save*. +
+image:setup-and-admin/image120.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+You can access all saved view from the *Select View PDF* dropdown. +
+image:setup-and-admin/image121.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+To update a saved view, click the *Update View* button, make changes and save it again. +
+image:setup-and-admin/image122.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+. Arrange columns:
+[loweralpha]
+.. Click the *Arrange Columns* icon. +
+image:setup-and-admin/image123.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. You can arrange the columns with the drag and drop feature. +
+image:setup-and-admin/image124.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+image:setup-and-admin/image125.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. Set column width: You can set the column width in percentage for each column. +
+image:setup-and-admin/image126.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+.. Custom label/ header name: In the Custom Label field against each column you can specify the custom name for the column header. +
+image:setup-and-admin/image127.png[A screenshot of a computer Description automatically generated,width=601,height=272] +
+ +
+In the above example the Type column’s header name is changed to _Type (Sl or No Sl)_. +
+ +
+image:setup-and-admin/image128.png[A screenshot of a computer Description automatically generated,width=601,height=444]
+.. Once done, click *Save*.
+. Regular Preview/ Detailed Preview: Click the respective buttons for regular preview or detailed preview. +
+image:setup-and-admin/image129.png[A screenshot of a computer Description automatically generated,width=601,height=272]
