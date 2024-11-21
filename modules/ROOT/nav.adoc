@@ -16,6 +16,5 @@
 ** xref:common-features/common-features.adoc#preview[Preview]
 
 
-* xref:setup-and-admin/Setup-andAdmin.adoc[Setups & Administration]
 
 
