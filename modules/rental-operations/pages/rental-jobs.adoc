@@ -70,8 +70,6 @@ image:rental-jobs/image11.png[imageDescription,width=601,height=271]
 
 * *Details* tab:
 +
-image:rental-jobs/image15.png[imageDescription,width=601,height=292]
-+
 --
 * On the *Details* tab, you can add and manage assets, services, packages and products for the rental process, including various steps from adding products to invoicing.
 * The Details tab outlines the following steps in the rental job process:
@@ -126,6 +124,8 @@ NOTE: To request this feature, please contact the administrator.
 |Download, preview, and send the rental job slip as needed.
 |===
 --
++
+image:rental-jobs/image15.png[imageDescription,width=601,height=292]
 
 * *Views* tab: The graphical representation of the rental job’s flow is shown on the *View* tab.
 +
