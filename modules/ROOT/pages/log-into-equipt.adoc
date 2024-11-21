@@ -1,0 +1,41 @@
+= Logging in to the Equipt
+:toc:
+
+To log in to the Equipt™ portal, follow these steps:
+
+== Creating Password
+[arabic]
+. Ensure that an administrator has added you as a user to the Equipt portal.
+. Once added, you will receive an email to create your login password.
+. Click the *Create Password* link in the email. You will be redirected to the login page where you can create your password.
+. After creating your password, you can log in with it.
++
+image:setup-and-admin/image1.png[imageDescription,width=601,height=311]
+
+
+== Multi-Factor Authentication (MFA)
+
+When you log in, you'll be prompted to provide an additional layer of verification.
+
+=== Option 1: Email verification
+
+[arabic]
+. *Receive an authentication code:* You'll receive a 6-digit authentication code via email.
+. *Enter the authentication code:* Type the authentication code into the designated field on the login page and click *Submit*. +
+ +
+image:setup-and-admin/image2.png[A screen shot of a login Description automatically generated,width=601,height=272]
+
+=== Option 2: Using an Authenticator App
+
+If you've enabled an authenticator app, you can use it for MFA instead of receiving an email code:
+
+[arabic]
+. *Scan the QR code:* Open your authenticator app and scan the QR code displayed on the Equipt portal login page.
+. *Generate an OTP:* The app will generate a 6-digit authentication code.
+. *Enter the OTP:* Type the authentication code from the app into the designated field on the login page.
+. *Click Submit:* Click "Submit" to complete the login process.
+
+
+Once you log in, the xref:home-page.adoc[Equipt Portal Landing page ] appears listing all modules in the form of cards as below:
+
+image:setup-and-admin/image3.png[extracted-media/media/image3,width=601,height=271]

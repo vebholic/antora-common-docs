@@ -1,0 +1,48 @@
+= Rental Operations Management
+
+[.exampleSummary]
+--
+The Rental Operations Management module in EquipT simplifies and streamlines asset rental processes, enabling businesses to efficiently handle the entire rental lifecycle. It provides real-time tracking of asset location, status, and maintenance history, reducing downtime and costly errors.
+
+The module helps you efficiently track asset lifecycles, predict maintenance needs, accurately bill customers, and optimize subleasing and subcontracting processes.
+
+With features like job package customization and effective subleasing management, businesses can maximize asset utilization, extend asset lifespan, and avoid unnecessary charges. EquipT’s Rental Operations module is designed to optimize performance and drive profitability in rental and asset-based operations.
+--
+
+
+++++
+<div class="nav-card-container">
+++++
+[nav-card]
+--
+* xref:rental-jobs.adoc[]
+--
+
+[nav-card]
+--
+* xref:rental-jobs.adoc[Serialized Assets]
+--
+
+[nav-card]
+--
+* xref:rental-jobs.adoc[Bulk Asset Creation]
+--
+
+[nav-card]
+--
+* xref:rental-jobs.adoc[Transfer Assets]
+--
+
+[nav-card]
+--
+* xref:rental-jobs.adoc[Transaction Tickets]
+--
+
+[nav-card]
+--
+* xref:rental-jobs.adoc[Sublease Assets]
+--
+
+++++
+</div>
+++++

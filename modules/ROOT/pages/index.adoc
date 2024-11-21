@@ -1,0 +1,41 @@
+= Introduction
+
+[.exampleSummary]
+--
+EquipT is a comprehensive ERP platform that streamlines operations across Sales, Supply Chain, Rental, and Field Service domains. It eliminates low-value tasks by automating workflows and leveraging AI-driven tools for better forecasting, resource utilization, and inventory management. EquipT enhances operational efficiency through advanced features like real-time asset tracking, preventative maintenance, accurate billing, and field service optimization. Designed for modern business needs, EquipT empowers organizations to save time, reduce errors, and make informed, data-driven decisions.
+
+* *Optimize Resource Allocation:* Efficiently plan and utilize assets and personnel.
+* *Inventory Management:* Maintain optimal inventory levels to avoid stockouts and overstock.
+* *Supply Chain Visibility:* Gain insights into your supply chain to identify bottlenecks and improve efficiency.
+* *Automate Workflows:* Reduce manual tasks and save time and resources.
+
+--
+
+
+
+*Refer to the following sections*:
+
+++++
+<div class="nav-card-container">
+++++
+[nav-card]
+--
+* xref:common-features/common-features.adoc[Common Features]
+--
+
+[nav-card]
+--
+* xref:setup-and-admin/Setup-andAdmin.adoc[Setup & Administration]
+--
+
+[nav-card]
+--
+* xref:setup-and-admin/Setup-andAdmin.adoc[Rental Operations Management]
+--
+
+++++
+</div>
+++++
+
+
+

@@ -1,0 +1,77 @@
+= Step 3: Quotation
+
+After you have added services (optional), click the image:rental-jobs/image42.png[rental-jobs/image42,width=22,height=20] forward icon to move to the Quotation step.
+
+
+On the Quotation step, you can process or generate the quotation which will be sent to the email address specified as the customer’s contact email address.
+
+You can also preview or sent the quotation to any email address in both Excel and PDF formats.
+
+Once the quotation is accepted by the customer you can mark it as Accepted.
+
+==  Process Quotation
+
+
+To process the quotation, click the *Process Quotation* button.
+
+NOTE: If a price is not added to the line item at the package, product, or service level, you cannot process the quotation. The Process Quotation button will be disabled.
+
+image:rental-jobs/image58.png[imageDescription,width=601,height=272]
+
+The “Quotation has been sent to customer” message appears.
+
+
+image:rental-jobs/image59.png[imageDescription,width=601,height=272] \
+
+[NOTE]
+====
+Once the quotation sent to customer, or accepted, you won’t be able to go to previous steps and edit any details.
+
+But you can create another version of the quotation.
+====
+
+== Quotation versions
+
+* When you try to go back to the previous steps after the quotation is accepted or sent to the customer, you will be asked whether you want to create a new version of the quotation.
++
+You can confirm this by clicking *Yes* on the dialog that appears.
++
+image:rental-jobs/image60.png[imageDescription,width=601,height=272] +
+
+* Every time a new version of the quotation is created, the system shows the current version against the *Version* label.
++
+image:rental-jobs/image61.png[imageDescription,width=601,height=272]
++
+You can click on the *Version* label to view the list of all versions.
++
+image:rental-jobs/image62.png[imageDescription,width=601,height=272]
+
+== Accept/ Reject the quotation
+
+. Click the *Accept/ Reject* button.
+
+. On the dialog that appears:
++
+* Select *Accept* or *Reject* option as required
+* Type in your comments (mandatory for Reject), and then click *Save*.
++
+** Accepting quotation:
++
+image:rental-jobs/image63.png[imageDescription,width=601,height=272]
++
+image:rental-jobs/image64.png[imageDescription,width=601,height=272]
+
+** Rejecting quotation:
++
+image:rental-jobs/image65.png[,width=601,height=272]
++
+image:rental-jobs/image66.png[imageDescription,width=601,height=272]
+
+If the quotation is rejected, you can create a new version of the quotation by clicking the *Clone Version* button or moving back to the previous button.
+
+
+== Preview, Download, Export to Excel
+
+You can preview the quotation, download it, and export it to Excel by clicking the respective buttons. +
+image:rental-jobs/image67.png[imageDescription,width=601,height=272]
+

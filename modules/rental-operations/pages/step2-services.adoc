@@ -1,0 +1,82 @@
+=  Step 2: Services
+:toc:
+
+After you have added the products and assets, click the image:rental-jobs/image42.png[rental-jobs/image42,width=22,height=20] button to move to the *Services* step.
+
+On the services step, you can add services and specify the technicians who will be attending the service as follows.
+
+[arabic]
+. Click the Add dropdown button. +
+image:rental-jobs/image43.png[imageDescription,width=601,height=272]
+. On the Add dropdown, you have the following options to select.
+
+== Add existing service
+
+To add existing service, select this option, from the list of services select the services, specify the quantity and then click the Add button.
++
+image:rental-jobs/image44.png[imageDescription,width=601,height=272]
++
+image:rental-jobs/image45.png[imageDescription,width=601,height=272]
+
+== Add technicians
+To add technicians, scroll down the page and on the Technicians section, do the following.
+[lowerroman]
+... From the Select Service dropdown select the service for which you’re adding the technician. +
+image:rental-jobs/image46.png[imageDescription,width=601,height=272]
+... Click the Add button and from the list of technicians, select the technicians and click the Add button. +
+image:rental-jobs/image47.png[imageDescription,width=601,height=272]
+
+== Add existing service packages
+
+To add existing service packages, select this option, from the list of service packages, select the packages, specify the quantity and then click the *Add* button.
++
+image:rental-jobs/image48.png[imageDescription,width=601,height=272]
++
+The service you added will be displayed.
++
+image:rental-jobs/image49.png[imageDescription,width=601,height=272]
+
+== Add new service
+
+To add new service, select this option, then on the form that appears, fill in the fields and then click Save.
++
+image:rental-jobs/image50.png[imageDescription,width=601,height=272]
++
+The new service you added will be displayed.
++
+image:rental-jobs/image49.png[imageDescription,width=601,height=272] +
+
+== Add child services
+
+You can add child services to an added service and services to an added service package by clicking the *Plus* icon.
++
+image:rental-jobs/image51.png[imageDescription,width=601,height=269]
++
+image:rental-jobs/image52.png[imageDescription,width=601,height=272]
+
+== Add new service package
+
+To add new service package, select this option, then on the form that appears, fill in the fields and then click Save.
++
+image:rental-jobs/image53.png[imageDescription,width=601,height=272]
++
+The new service package you added will be displayed.
++
+image:rental-jobs/image49.png[imageDescription,width=601,height=272]
+
+== Bulk Edit
+
+To edit details for more than one service or service package at once, select the records, then from the *Actions* list, select *Bulk Edit*, then on the *Bulk Edit* form that appears, make changes and then click *Save*.
++
+image:rental-jobs/image54.png[imageDescription,width=601,height=272]
++
+image:rental-jobs/image55.png[imageDescription,width=601,height=272]
+
+== Delete more than one service or service packages at once
+
+Select the services and service packages that you want to delete, then from the *Actions* list, select *Delete*, and then confirm deletion on the confirmation dialog that appears.
+
+image:rental-jobs/image56.png[imageDescription,width=601,height=272]
+
+image:rental-jobs/image57.png[A screenshot of a computer Description automatically generated,width=601,height=272]
+
